@@ -1,0 +1,2 @@
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','height','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop','aspectRatio','resetAvailable','logic') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','height','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop','aspectRatio','resetAvailable','show_logic') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;

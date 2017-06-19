@@ -1,0 +1,135 @@
+<accordion close-others="oneAtATime" ng-repeat="section in form.sections" ng-show="section.options.show">
+    <accordion-group is-open="section.options.isOpen" is-disabled="section.options.isDisabled" class="panel panel-info">
+        <accordion-heading>
+          <span ng-if="section.title">{{section.title}}</span>
+          <i ng-if="!section.options.isDisabled" class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': section.options.isOpen, 'glyphicon-chevron-right': !section.options.isOpen}"></i>
+          <sectionsmp3audio class="pull-right" ng-if="section.options.audio_src"></sectionsmp3audio>
+        </accordion-heading>
+        <div>
+          <form name="section_form">
+            <!-- <sectionsmp3audio ng-if="section.options.audio_src"></sectionsmp3audio><br/> -->
+            <div class="row" ng-if="section.description || section.instructions">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <strong ng-if="section.description">
+                            {{section.description}}
+                        </strong>
+                        <span ng-if="section.instructions">
+                            {{section.instructions}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="section.parameters.type=='read_from_api' && !api_response_data">
+              <loading text="Results Loading" type="warning"></loading>
+            </div>
+            <div ng-if="api_response && api_response_data">
+              <strong>Results: </strong><pre>{{api_response_data}}</pre>
+            </div>
+            <div ng-init="question_count=1"></div>
+            <div ng-repeat="question in section.questions">
+                <div ng-if="question.parameters.type=='table'">
+                  <datatable></datatable>
+                </div>
+                <div ng-if="question.parameters.type=='unordered_list'">
+                  <dataunorderedlist></dataunorderedlist>
+                </div>
+                <div class="row" ng-if="question.options.display!='matrix'">
+                    <div ng-if="question.parameters.type!='table' && question.parameters.type!='unordered_list'">
+                      <p ng-show="question.title || question.description">
+                          <div class="well well-sm" ng-show="question.title">
+                              <questionsmp3audio ng-if="question.options.audio_src"></questionsmp3audio>
+                              <strong>{{question.counter}}) {{question.title}}</strong>
+                              <span ng-if="question.options.isRequired" class="text-danger required-field-text">*</span>
+                          </div>
+                          <div ng-if="question.description">
+                              {{question.description}}
+                          </div>
+                      </p>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='read_from_api'">
+                      <div ng-if="api_response && api_response_data">
+                        <div ng-init="question.answer_data.value=api_response_data"></div>
+                        <input name="question_{{question.id}}_options" id="question_{{question.id}}" type="hidden" ng-model="question.answer_data.value">
+                      </div>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='radiobutton'">
+                      <questionsradiobutton></questionsradiobutton>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='checkbox'">
+                      <questionscheckbox></questionscheckbox>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='ranking'">
+                      <questionsranking></questionsranking>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='simple_dropdown'">
+                      <questionsdropdown></questionsdropdown>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='textbox'">
+                        <questionstextbox></questionstextbox>
+                    </div>
+                    <div class="col-md-12" ng-if="question.parameters.type=='video_embed_youtube'">
+                      <youtubevideo></youtubevideo>
+                    </div>
+                    <div align="center" class="embed-responsive embed-responsive-{{question.options.aspectRatio}} text-center" ng-if="question.parameters.type=='video_embed_mp4'">
+                      <mp4video></mp4video>
+                    </div>
+                </div>
+                <div class="row" ng-if="question.options.display=='matrix'">
+                  <table class="table table-hover table-condensed borderless">
+                    <tr class="info" ng-if="question.parameters.type=='matrix_headers'">
+                      <th width="{{table_question_width}}%">&nbsp;</th>
+                      <!-- If there is a reset option available for this question -->
+                      <th ng-if="question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length+1}}%" ng-repeat="answer in question.answers">{{answer.display}}</th>
+                      <th ng-if="question.options.resetAvailable" class="warning" width="{{(table_width-table_question_width)/question.answers.length+1}}%">Reset</th>
+                      <!-- If there is not a reset option available for this question -->
+                      <th ng-if="!question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length}}%" ng-repeat="answer in question.answers">{{answer.display}}</th>
+                    </tr>
+                    <tr ng-if="question.parameters.type=='radiobutton_matrix'">
+                      <td width="{{table_question_width}}%" ng-if="question.title && question.description">
+                        <questionsmp3audio ng-if="question.options.audio_src"></questionsmp3audio>&nbsp;
+                        <strong>{{question.counter}}) {{question.title}}</strong>
+                        <span ng-if="question.description">{{question.description}}</span>
+                        <span ng-if="question.options.isRequired" class="text-danger required-field-text">*</span>
+                      </td>
+                      <td width="{{table_question_width}}%" ng-if="question.title && !question.description">
+                        <questionsmp3audio ng-if="question.options.audio_src"></questionsmp3audio>&nbsp;
+                        <strong>{{question.counter}})</strong> {{question.title}}
+                        <span ng-if="question.options.isRequired" class="text-danger required-field-text">*</span>
+                      </td>
+
+                      <!-- If there is a reset option available for this question -->
+                      <td ng-if="question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length+1}}%" ng-repeat="answer in question.answers">
+                          <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{answer.id}}" ng-checked="answer.value==question.default" ng-model="question.answer_data.id" ng-required="question.options.isRequired==true">
+                      </td>
+                      <td ng-if="question.options.resetAvailable" class="warning" width="{{(table_width-table_question_width)/question.answers.length+1}}%"><input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="" ng-model="question.answer_data.id"></td>
+                      <!-- If there is not a reset option available for this question -->
+                      <td ng-if="!question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length}}%" ng-repeat="answer in question.answers">
+                          <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{answer.id}}" ng-checked="answer.value==question.default" ng-model="question.answer_data.id" ng-required="question.options.isRequired==true">
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+            </div>
+          </form>
+        </div>
+        <hr/>
+        <div class="well well-sm text-right">
+          <div class="btn-toolbar" role="toolbar" aria-label="...">
+            <div class="btn-group" role="group" aria-label="..." ng-if="config.form_jump_buttons">
+              <button type="button" class="btn btn-success btn-lg" ng-click="next(section.id, null, true)" ng-if="form.previous_forms_id">Previous Form</button>
+              <button type="button" class="btn btn-success btn-lg" ng-click="next(section.id, null, false)" ng-if="form.next_forms_id">Next Form</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="...">
+              <!-- Previous Button -->
+              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && config.skip_required" ng-disabled="section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
+              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && !config.skip_required" ng-disabled="section_form.$invalid || section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
+              <!-- Next or Done Button -->
+              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.next_sections_id, false)" ng-if="section.finish && config.skip_required" ng-disabled="section.parameters.type=='read_from_api' && !api_response_data">{{section.finish}}</button>
+              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.next_sections_id, false)" ng-if="section.finish && !config.skip_required" ng-disabled="section_form.$invalid || section.parameters.type=='read_from_api' && !api_response_data">{{section.finish}}</button>
+            </div>
+          </div>
+        </div>
+        <span class="text-danger required-field-text">*</span> = Required Field / Campo requerido
+    </accordion-group>
+</accordion>

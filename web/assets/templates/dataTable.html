@@ -1,0 +1,27 @@
+<div ng-init="table_headers=parseJson(question.title)"></div>
+<div ng-init="table_rows=parseJson(question.description)"></div>
+<div ng-class="{ 'row' : question.options.display!='minimal' }">
+  <table class="table table-bordered table-striped">
+    <tr class="active" ng-repeat="(row_key,table_row) in table_headers">
+      <th ng-repeat="(cell_key, table_cell) in table_row">
+        {{table_cell}}
+      </th>
+    </tr>
+    <tr ng-repeat="(row_key,table_row) in table_rows">
+      <td ng-repeat="(cell_key, table_cell) in table_row">
+        <span ng-if="!table_cell['audio_src'] && !table_cell['image_src']">{{table_cell}}</span>
+        <span ng-if="table_cell['audio_src']">
+          <datatablemp3audio ng-if="table_cell['audio_src']"></datatablemp3audio>
+        </span>
+        <span ng-if="table_cell['image_src']">
+          <div ng-repeat="image in table_cell['image_src']">
+            <div ng-init="image_id='image_' + question.id + $index"></div>
+            <div ng-init="image_src=table_cell['image_src'][$index]"></div>
+            <div ng-init="image_alt=table_cell['image_alt'][$index]"></div>
+            <imagine ng-if="table_cell['image_src'][$index]"></imagine>
+          </div>
+        </span>
+      </td>
+    </tr>
+  </table>
+</div>

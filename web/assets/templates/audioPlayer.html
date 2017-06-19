@@ -1,0 +1,12 @@
+<audio src="{{src}}" id="{{id}}" autoplayonoff autoplay-attr-on="{{options.autoplay}}" autoplay-attr-name="autoplay" controlsonoff controls-attr-on="{{options.controls}}" controls-attr-name="controls" preload="{{options.preload}}" volume="{{options.volume}}" audiocontrol>
+  <p>Your browser does not support HTML5 Video content.</p>
+</audio>
+<div ng-if="!just_play" class="btn-group" role="group" aria-label="..." ng-if="!options.controls">
+  <button type="button" class="btn btn-success btn-xs" ng-click="controlMedia(id, 'play', true)" ng-disabled="config.media_library[id]"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+  <button type="button" class="btn btn-danger btn-xs" ng-click="controlMedia(id, 'pause')" ng-disabled="!config.media_library[id]"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+  <button type="button" class="btn btn-warning btn-xs" ng-click="controlMedia(id, 'reset', true)"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span></button>
+</div>
+<div ng-if="just_play">
+  <button ng-if="config.media_library[id]" type="button" class="btn btn-danger btn-xs" ng-click="controlMedia(id, 'pause')"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+  <button ng-if="!config.media_library[id]" type="button" class="btn btn-success btn-xs" ng-click="controlMedia(id, 'play', true)"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+</div>

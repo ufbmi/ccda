@@ -1,0 +1,21 @@
+<tr ng-if="question.parameters.type=='radiobutton_matrix'">
+  <td width="{{table_question_width}}%" ng-if="question.title && question.description">
+    <questionsmp3audio ng-if="question.options.audio_src"></questionsmp3audio>&nbsp;
+    <strong>{{question_count}}) {{question.title}}</strong>
+    <span ng-if="question.description">{{question.description}}</span>
+  </td>
+  <td width="{{table_question_width}}%" ng-if="question.title && !question.description">
+    <questionsmp3audio ng-if="question.options.audio_src"></questionsmp3audio>&nbsp;
+    <strong>{{question_count}})</strong> {{question.title}}
+  </td>
+
+  <!-- If there is a reset option available for this question -->
+  <td ng-if="question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length+1}}%" ng-repeat="answer in question.answers">
+      <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{answer.id}}" ng-checked="answer.value==question.default" ng-model="question.answer_data.id">
+  </td>
+  <td ng-if="question.options.resetAvailable" class="warning" width="{{(table_width-table_question_width)/question.answers.length+1}}%"><input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="" ng-model="question.answer_data.id"></td>
+  <!-- If there is not a reset option available for this question -->
+  <td ng-if="!question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length}}%" ng-repeat="answer in question.answers">
+      <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{answer.id}}" ng-checked="answer.value==question.default" ng-model="question.answer_data.id">
+  </td>
+</tr>

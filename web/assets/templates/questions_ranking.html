@@ -1,0 +1,27 @@
+<!-- <input type="number" min="1" max="3" step="1"/> -->
+<div ng-if="question.options.display=='spinner'">
+  <div ng-if="question.answer_data.value==null">
+    <div ng-init="question.answer_data.value=1"></div>
+  </div>
+  <div class="input-group spinner">
+    <input name="question_{{question.id}}_options" id="question_{{question.id}}" type="text" class="form-control" placeholder="{{question.placeholder}}" value="{{question.answer_data.value}}" width="10">
+    <div class="input-group-btn-vertical">
+      <button class="btn btn-success btn-xs" type="button" ng-click="question.answer_data.value=rankQuestion(question.options.min, question.options.max,question.answer_data.value,'increment')"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></button>
+      <button class="btn btn-danger btn-xs" type="button" ng-click="question.answer_data.value=rankQuestion(question.options.min, question.options.max,question.answer_data.value,'decrement')"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></button>
+    </div>
+  </div>
+</div>
+<div ng-if="question.options.display=='radio'">
+  <div ng-init="qrange=makeRange(question.options.min, question.options.max)"></div>
+  <div class="radio" ng-repeat="i in qrange">
+    <label>
+      <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{i}}" ng-model="question.answer_data.value"> {{i}}
+    </label>
+  </div>
+</div>
+<div ng-if="question.options.display=='radio_inline'">
+  <div ng-init="qrange=makeRange(question.options.min, question.options.max)"></div>
+  <label class="radio-inline" ng-repeat="i in qrange">
+    <input type="radio" name="question_{{question.id}}_options" id="question_{{question.id}}" value="{{i}}" ng-model="question.answer_data.value"> {{i}}
+  </label>
+</div>

@@ -1,0 +1,1 @@
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','rows','cols','max','min','headers','isOpen','isDisabled') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;

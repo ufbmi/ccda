@@ -1,0 +1,35 @@
+<phpunit bootstrap="./webBootstrap.php">
+	<testsuites>
+		<testsuite name="API .php Libraries">
+			<directory>./</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist>
+			<!-- <directory suffix=".php">./tests/api</directory> -->
+			<exclude>
+				<directory suffix=".php">./tests</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+	<logging>
+		<log type="coverage-html" target="./testOutput/codeCoverage" charset="UTF-8"
+			yui="true" highlight="true" lowUpperBound="50" highLowerBound="80"/>
+		<log type="testdox-html" target="./testOutput/index.html" />
+		<!--
+			This line sets the output path for the JSON data, phprun="true" causes
+			the PHP script to generate the file at runtime, set phprun="false" to
+			disable this feature
+		-->
+		<log type="json" target="./testOutput/output.json" phprun="true" />
+	</logging>
+	<!--
+		This section provides custom Environment variables to be used by the
+		testing suites
+	-->
+	<php>
+		<server name="REMOTE_ADDR" value="127.0.0.1"/>
+		<server name="REQUEST_URI" value="/fake_uri"/>
+		<server name="REQUEST_METHOD" value="GET"/>
+	</php>
+</phpunit>

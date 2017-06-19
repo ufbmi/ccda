@@ -1,0 +1,8 @@
+<tr class="info" ng-if="question.parameters.type=='matrix_headers'">
+  <th width="{{table_question_width}}%">&nbsp;</th>
+  <!-- If there is a reset option available for this question -->
+  <th ng-if="question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length+1}}%" ng-repeat="answer in question.answers">{{answer.display}}</th>
+  <th ng-if="question.options.resetAvailable" class="warning" width="{{(table_width-table_question_width)/question.answers.length+1}}%">Reset</th>
+  <!-- If there is not a reset option available for this question -->
+  <th ng-if="!question.options.resetAvailable" class="text-center" width="{{(table_width-table_question_width)/question.answers.length}}%" ng-repeat="answer in question.answers">{{answer.display}}</th>
+</tr>

@@ -1,0 +1,6 @@
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','rows','cols','max','min','headers','isOpen','isDisabled','src') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','rows','cols','max','min','headers','isOpen','isDisabled','src', 'autoplay') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','height','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','height','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop','aspectRatio') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
+ALTER TABLE `lu_options` CHANGE `parameter` `parameter` ENUM('display','width','height','rows','cols','max','min','headers','isOpen','isDisabled','src','autoplay','loop','aspectRatio','resetAvailable') CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;

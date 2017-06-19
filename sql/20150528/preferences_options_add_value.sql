@@ -1,0 +1,1 @@
+ALTER TABLE `preferences_options`  ADD `value` TEXT NOT NULL AFTER `lu_options_id`;

@@ -1,0 +1,8 @@
+[mysql]
+password="123"
+user=ccdaa
+database=ccdaa
+
+[mysqldump]
+password="123"
+user=ccdaa

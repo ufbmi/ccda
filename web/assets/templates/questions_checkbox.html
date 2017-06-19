@@ -1,0 +1,12 @@
+<div ng-if="question.options.display=='inline'">
+    <label class="radio-inline" ng-repeat="answer in question.answers">
+        <input type="checkbox" name="question_{{question.id}}_{{answer.id}}" id="question_{{question.id}}_{{answer.id}}" value="{{answer.id}}" ng-model="question.answer_data.id" ng-checked="answer.value==question.default"> {{answer.display}}
+    </label>
+</div>
+<div ng-if="question.options.display!='inline'">
+    <div class="radio" ng-repeat="answer in question.answers">
+        <label>
+            <input type="checkbox" name="question_{{question.id}}_{{answer.id}}" id="question_{{question.id}}_{{answer.id}}" value="{{answer.id}}" ng-model="question.answer_data.id" ng-checked="answer.value==question.default"> {{answer.display}}
+        </label>
+    </div>
+</div>

@@ -1,0 +1,91 @@
+vagrantfile:
+    target: aws
+    vm:
+        box: aws
+        hostname: stage
+        domain: crcdaa.org
+        provider:
+            aws:
+                access_key_id: 'Personal EC2 Access Key ID'
+                secret_access_key: 'Personal EC2 Secret Access Key'
+                keypair_name: 'EC2 keypair name'
+                ami: ami-4b124a22
+                region: us-east-1
+                instance_type: m1.small
+                security_groups:
+                    - 'security group ID. e.g., sg-a1b2c3d4'
+                tags:
+                    Source: Puphpet
+                elastic_ip: 'elastic IP address valid'
+                associate_public_ip: 'true'
+                subnet_id: 'subnet ID.  e.g. subnet-abcd1234'
+        provision:
+            puppet:
+                manifests_path: puphpet/puppet
+                manifest_file: site.pp
+                module_path: puphpet/puppet/modules
+                options:
+                    - '--verbose'
+                    - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
+                    - '--parser future'
+        synced_folder:
+            vfawssf_ndd90ejme9je:
+                source: ../web
+                target: /var/www/ccdaa/web
+            vfawssf_o7l425thhnhu:
+                source: ../api
+                target: /var/www/ccdaa/api
+            vfawssf_n3d9j39djkd9:
+                source: ../sql
+                target: /sql
+            vfawssf_09gjnr9fgifn:
+                source: ../../ccdaa_media/english
+                target: /var/www/ccdaa/videos/english
+            vfawssf_d8d9f6f6f9dd:
+                source: ../../ccdaa_media/spanish
+                target: /var/www/ccdaa/videos/spanish
+            f8390ff9390f90f0fg0f:
+                source: ../../sshkeys/
+                target: /sshkeys
+            vfawssf_dkf9056nd94n:
+                source: ../../certs/crcdaa.org/
+                target: /etc/apache2/ssl
+                sync_type: default
+                owner: root
+                group: root
+    ssh:
+        host: null
+        port: null
+        private_key_path: ~/.ssh/id_rsa
+        username: admin
+        guest_port: null
+        keep_alive: true
+        forward_agent: false
+        forward_x11: false
+        shell: 'bash -l'
+        custom:
+            sshpubkeysdirectory: /sshkeys
+            authorizedkeysfile: /home/admin/.ssh/authorized_keys
+mysql:
+    install: '1'
+    settings:
+        version: '5.6'
+        root_password: 'SET THIS PASSWORD FOR USER ROOT'
+        override_options: {  }
+    adminer: '1'
+    users:
+        mysqlnu_l0ux1btcldlz:
+            name: ccdaa
+            password: 'SET THIS PASSWORD FOR USER CCDAA'
+    databases:
+        mysqlnd_qri5yd3zfa6w:
+            name: ccdaa
+            sql: /sql/ccdaa_all.sql
+    grants:
+        mysqlng_aggegor2u1yt:
+            user: ccdaa
+            table: '*.*'
+            privileges:
+                - ALL
+daa:
+    url: https://stage.crcdaa.org/api/v1/

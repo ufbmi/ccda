@@ -1,0 +1,30 @@
+<p>
+  <!-- Site has not loaded successfully -->
+  <div class="container" ng-if="!site_loaded">
+    <loading text="Site Loading" type="primary"></loading>
+  </div>
+
+    <!-- Site loading error message -->
+    <div class="container text-center" ng-if="site_error">
+        <div class="well well-sm">
+          {{site_error}}
+        </div>
+    </div>
+
+  <!-- Site loaded successfully -->
+  <div class="container" ng-if="site_loaded">
+    <div class="well well-sm text-center">
+      {{config.site.description}}
+    </div>
+
+    <div class="panel panel-primary" ng-repeat="project in projects_list" ng-if="$index > 0 && project.default">
+      <div class="panel-heading">{{project.default.title}}</div>
+      <div class="panel-body">
+        {{project.default.description}}
+      </div>
+      <div class="panel-footer">
+        <input type="button" class="btn btn-primary btn-lg" ng-click="start(config.site.id, project.id)" value="New Participant" ng-enter="start(config.site.id, project.id)"/>
+      </div>
+    </div>
+  </div>
+</p>

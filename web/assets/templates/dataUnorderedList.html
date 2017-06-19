@@ -1,0 +1,19 @@
+<div ng-init="list_headers=parseJson(question.title)"></div>
+<div ng-init="list_rows=parseJson(question.description)"></div>
+<div ng-class="{ 'row' : question.options.display!='minimal' }">
+  <table class="table table-bordered table-striped">
+    <tr class="active" ng-repeat="(key, list_header) in list_headers">
+      <th ng-repeat="(row_key, list_header) in list_header">{{list_header}}</th>
+    </tr>
+    <tr>
+      <td>
+        <ul class="list-unstyled" ng-repeat="(key, list_row) in list_rows">
+          <li ng-repeat="(row_key, list_row) in list_row">
+            <!-- <span class="badge">14</span> -->
+            <span class="glyphicon glyphicon-minus"></span>{{list_row}}
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>

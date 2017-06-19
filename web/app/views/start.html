@@ -1,0 +1,17 @@
+<p>
+    <!-- Site Data Is Not Loaded -->
+    <div class="container" ng-if="!site_loaded">
+        <loading text="Site Loading" type="primary"></loading>
+    </div>
+
+    <!-- Site loading error message -->
+    <div class="container text-center" ng-if="site_error">
+        <div class="well well-sm">
+          {{site_error}}
+        </div>
+    </div>
+
+    <div ng-if="site_loaded">
+      <loading text="Authenticating" type="primary"></loading>
+    </div>
+</p>

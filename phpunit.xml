@@ -1,0 +1,27 @@
+<phpunit bootstrap="tests/api/bootstrap.php">
+	<testsuites>
+		<testsuite name="DAA Test Suite">
+			<directory>tests/api/</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist>
+			<!-- <directory suffix=".php">./tests/api</directory> -->
+			<exclude>
+				<directory suffix=".php">./tests</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+	<logging>
+		<log type="json" target="./testOutput/output.json" phprun="false" />
+	</logging>
+	<!--
+		This section provides custom Environment variables to be used by the
+		testing suites
+	-->
+	<php>
+		<server name="REMOTE_ADDR" value="127.0.0.1"/>
+		<server name="REQUEST_URI" value="/fake_uri"/>
+		<server name="REQUEST_METHOD" value="GET"/>
+	</php>
+</phpunit>

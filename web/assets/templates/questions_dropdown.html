@@ -1,0 +1,3 @@
+<select class="form-control" name="question_{{question.id}}" id="question_{{question.id}}" ng-model="question.answer_data.id" ng-required="question.options.isRequired==true">
+    <option value="{{answer.id}}" ng-repeat="answer in question.answers">{{answer.display}}</option>
+</select>

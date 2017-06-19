@@ -1,0 +1,101 @@
+<!-- There is no site data loaded yet -->
+<div ng-if="!site_loaded">
+  <loading text="Site Loading" type="primary"></loading>
+  <!-- Site loading error message -->
+  <div class="container text-center" ng-if="site_error">
+    <div class="well well-sm">{{site_error}}</div>
+  </div>
+</div>
+<!-- There is site data loaded -->
+<div ng-if="site_loaded">
+  <!-- Show a language loading/wait message and animation -->
+  <div ng-if="!enable_language_selection">
+    <loading text="Language Options Loading" type="primary"></loading>
+  </div>
+  <!-- No language has been selected, show the language selection options -->
+  <div ng-if="!config.site.selected_language.id">
+    <p>
+      <div class="container" ng-show="enable_language_selection">
+        <div class="row">
+          <div class="col-xs-6 text-center" ng-repeat="lang in config.site.preferences_languages">
+            <button type="button" class="btn btn-primary btn-lg" ng-click="selectSessionLanguage(lang.id)" ng-disabled="!enable_language_selection">{{lang.title}}</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6"><br/></div>
+          <div class="col-xs-6"><br/></div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 text-center" ng-repeat="audio in config.site.options.audio_src" ng-if="config.site.options">
+            <sitesmp3audio ng-if="audio"></sitesmp3audio>
+          </div>
+        </div>
+      </div>
+    </p>
+  </div>
+  <div ng-if="config.site.selected_language.id">
+    <div ng-if="!project_loaded">
+        <loading text="Project Loading" type="primary"></loading>
+    </div>
+    <!-- Progress bar shown while there is no survey started -->
+    <div ng-if="project_loaded && !survey_started">
+      <div ng-if="!forms_loaded">
+        <loading text="Forms Loading" type="info"></loading>
+      </div>
+    </div>
+    <!-- If there is a project_error message, this container will be shown -->
+    <div class="container text-center" ng-if="project_error">
+        <div class="well well-sm">
+            {{project_error}}
+        </div>
+    </div>
+
+    <div class="container" ng-if="project_loaded && forms_loaded">
+        <!-- Bootstrap Project Panel, shows the basic project information -->
+        <div class="panel panel-primary" ng-if="!survey_started">
+            <div class="panel-heading">
+              <h3 class="panel-title">{{config.project.title}}<projectsmp3audio ng-if="config.project.options.audio_src" class="pull-right"></projectsmp3audio>
+</h3>
+            </div>
+            <div class="panel-body" ng-show="!survey_started">
+                <div ng-repeat="instruction in config.project.instructions">
+                    <span class="glyphicon glyphicon-play text-success"></span> <span style="font-size: 20px">{{instruction}}</span>
+                </div>
+            </div>
+            <div class="panel-footer text-center" ng-show="!survey_started">
+                <button type="button" class="btn btn-success btn-lg" ng-click="begin()" ng-disabled="!forms_loaded" ng-enter="begin()">{{config.project.begin}}</button>
+            </div>
+        </div>
+
+        <div ng-repeat="form in forms_data[0].data.results" ng-if="forms_loaded && survey_started" ng-show="form.options.show">
+          <div class="row" ng-if="forms_count">
+            <div class="col-md-6">
+              <div>
+                <strong>Overall Progress:</strong> ( You are on {{at_form}} of {{forms_count}} forms )
+              </div>
+              <progressbar animate="false" value="progress_forms" type="info"></progressbar>
+            </div>
+            <div class="col-md-6">
+              <div ng-if="sections_count">
+                <strong>Form Progress:</strong> ( You are on {{at_section}} of {{sections_count}} sections )
+              </div>
+              <progressbar animate="false" value="progress_sections" type="success" ng-if="sections_count"></progressbar>
+            </div>
+          </div>
+          <!-- Show bootstrap panel with form header, description, and instructions -->
+          <formpanel></formpanel>
+          <!-- Container for the form sections -->
+          <sections></sections>
+          <!-- The is the Begin & Finish buttons that are shown for each form -->
+          <div class="well well-sm text-right" ng-show="!form_started">
+            <div class="btn-toolbar" role="toolbar" aria-label="...">
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-primary btn-lg" ng-click="begin(form.id)">{{form.begin}}</button>
+                <button type="button" class="btn btn-success btn-lg" ng-click="" ng-disabled="!form.finished">{{form.finish}}</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

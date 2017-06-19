@@ -1,0 +1,23 @@
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '527';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '559';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '770';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '2432';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '2434';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '2951';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = '' WHERE `id` = '2964';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '3058';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '4383';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '1690';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '1719';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '1930';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '2520';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '2522';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '2952';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = '' WHERE `id` = '2965';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '3059';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '4382';
+
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '86';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '525';
+UPDATE `preferences_text` SET `placeholder` = 'Next', `default` = 'Previous' WHERE `id` = '3060';
+UPDATE `preferences_text` SET `placeholder` = 'Siguiente', `default` = 'Anterior' WHERE `id` = '3061';

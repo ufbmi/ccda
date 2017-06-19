@@ -1,0 +1,1 @@
+UPDATE `preferences_text` SET `title` = 'Extremadamente' WHERE `id` = '2930';

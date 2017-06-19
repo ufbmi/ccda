@@ -1,0 +1,1 @@
+ALTER TABLE `preferences_text`  ADD `default` TEXT NOT NULL AFTER `placeholder`
