@@ -1,0 +1,673 @@
+{
+"participants":
+[{
+	"AmountofColonExamined": {
+		"fit": 0.4,
+		"Colo": 0.4,
+		"Flex": 0.4	},
+	"Accuracy": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Cost": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Complications": {
+		"fit": 0.4,
+		"Colo": 0.4,
+		"Flex": 0.4
+	},
+	"Frequency": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Discomfort": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"FurtherTesting": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Location": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"TestPreparation": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Sedation": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Time": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"ScientificEvidence": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"Responsibilities": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0	},
+	"Accuracy": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Cost": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Complications": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Frequency": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Discomfort": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"FurtherTesting": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Location": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"TestPreparation": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Sedation": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Time": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"ScientificEvidence": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+	},
+	"Responsibilities": {
+		"fit": 1.0,
+		"Colo": 1.0,
+		"Flex": 1.0
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.4,
+		"Colo": 0.4,
+		"Flex": 0.4	},
+	"Accuracy": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Cost": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Complications": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Frequency": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Discomfort": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"FurtherTesting": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Location": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"TestPreparation": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Sedation": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Time": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"ScientificEvidence": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Responsibilities": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.5,
+		"Colo": 0.5,
+		"Flex": 1.0	},
+	"Accuracy": {
+		"fit": 0.4,
+		"Colo": 0.5,
+		"Flex": 0.6
+	},
+	"Cost": {
+		"fit": 0.2,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"Complications": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"Frequency": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"Discomfort": {
+		"fit": 0.4,
+		"Colo": 0.5,
+		"Flex": 0.6
+	},
+	"FurtherTesting": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"Location": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.6
+	},
+	"TestPreparation": {
+		"fit": 0.4,
+		"Colo": 0.5,
+		"Flex": 0.6
+	},
+	"Sedation": {
+		"fit": 0.4,
+		"Colo": 0.5,
+		"Flex": 0.5
+	},
+	"Time": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"ScientificEvidence": {
+		"fit": 0.5,
+		"Colo": 0.4,
+		"Flex": 0.3
+	},
+	"Responsibilities": {
+		"fit": 0.4,
+		"Colo": 0.5,
+		"Flex": 0.6
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6	},
+	"Accuracy": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Cost": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Complications": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Frequency": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Discomfort": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"FurtherTesting": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Location": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"TestPreparation": {
+		"fit": 0.6,
+		"Colo": 0.6,
+		"Flex": 0.6
+	},
+	"Sedation": {
+		"fit": 0.5,
+		"Colo": 0.5,
+		"Flex": 0.6
+	},
+	"Time": {
+		"fit": 0.5,
+		"Colo": 0.5,
+		"Flex": 0.5
+	},
+	"ScientificEvidence": {
+		"fit": 0.5,
+		"Colo": 0.5,
+		"Flex": 0.5
+	},
+	"Responsibilities": {
+		"fit": 0.5,
+		"Colo": 0.5,
+		"Flex": 0.5
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1	},
+	"Accuracy": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Cost": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Complications": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Frequency": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Discomfort": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"FurtherTesting": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Location": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"TestPreparation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Sedation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Time": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"ScientificEvidence": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Responsibilities": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1	},
+	"Accuracy": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Cost": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Complications": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Frequency": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Discomfort": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"FurtherTesting": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Location": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"TestPreparation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Sedation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Time": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"ScientificEvidence": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Responsibilities": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3	},
+	"Accuracy": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"Cost": {
+		"fit": 0.1,
+		"Colo": 1.0,
+		"Flex": 0.1
+	},
+	"Complications": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Frequency": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Discomfort": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"FurtherTesting": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Location": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"TestPreparation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Sedation": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Time": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"ScientificEvidence": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+	},
+	"Responsibilities": {
+		"fit": 0.1,
+		"Colo": 0.1,
+		"Flex": 0.1
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.4,
+		"Colo": 0.4,
+		"Flex": 0.4	},
+	"Accuracy": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Cost": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Complications": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Frequency": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Discomfort": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"FurtherTesting": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Location": {
+		"fit": 0.3,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"TestPreparation": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Sedation": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"Time": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"ScientificEvidence": {
+		"fit": 0.2,
+		"Colo": 0.2,
+		"Flex": 0.2
+	},
+	"Responsibilities": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+
+	}
+	},
+	{
+	"AmountofColonExamined": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4	},
+	"Accuracy": {
+		"fit": 0.1,
+		"Colo": 0.2,
+		"Flex": 0.3
+	},
+	"Cost": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Complications": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Frequency": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Discomfort": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"FurtherTesting": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Location": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"TestPreparation": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.3
+	},
+	"Sedation": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Time": {
+		"fit": 0.3,
+		"Colo": 0.4,
+		"Flex": 0.5
+	},
+	"ScientificEvidence": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.4
+	},
+	"Responsibilities": {
+		"fit": 0.2,
+		"Colo": 0.3,
+		"Flex": 0.3
+
+	}
+}]
+}

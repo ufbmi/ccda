@@ -79,6 +79,21 @@ To reset, follow these steps:
 5. Use the interface to add session keys as needed.
 6. Note the keys you added for use when next logging in at http://vagrant1/web/
 
+
+To test the application you will need "Pass Keys". You can read them from the
+database using this query:
+
+select id, sessions_id, token, passkey from authorization where name = 'ccdaa_session_token' limit 5;
++----+-------------+----------------------------------+---------+
+| id | sessions_id | token                            | passkey |
++----+-------------+----------------------------------+---------+
+|  2 |        NULL |                                  | 1234    |
+|  3 |           1 | beef1e6576d29a07fdbac219d4e3b16a | 1234    |
+|  4 |        NULL |                                  | 1234    |
+|  5 |        NULL |                                  | 1234    |
+|  6 |        NULL |                                  | 1234    |
++----+-------------+----------------------------------+---------+
+
 ## Generating Fixed Forms File
 
 The application currently has the ability to load a project directly from the

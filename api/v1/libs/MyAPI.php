@@ -162,18 +162,19 @@
       return $this->letsGo();
     }
 
-    ##
-    # getKey(params)
-    # This method takes in the parameters
-    #
     private function getKey() {
-      if(isset($_SERVER['HTTP_KEY'])) {
-        return $_SERVER['HTTP_KEY'];
-      } else if($this->getParam('key')) {
-        return $this->getParam('key');
-      } else {
-        return null;
-      }
+	// returns the `HTTP_KEY` or params['key']
+
+	    if (isset($_SERVER['HTTP_KEY'])) {
+		    return $_SERVER['HTTP_KEY'];
+	    }
+
+	    if ($this->getParam('key')) {
+		    return $this->getParam('key');
+	    }
+
+	// throw new Exception("The `HTTP_KEY` variable is not set for the server nor is `key` received as part of the request");
+	return null;
     }
 
     ###
@@ -223,9 +224,9 @@
     private function getParam($key) {
       if(isset($this->params[$key])) {
         return $this->params[$key];
-      } else {
-        return null;
       }
+
+      return null;
     }
 
     ###
@@ -233,6 +234,7 @@
     # to display a specific projects
     #
     public function init() {
+
       $key = $this->getKey();
       $this->getPostParams();
       $app_name = $this->getParam('app_name');
@@ -243,20 +245,51 @@
       }
 
       $this->MyPDO->resetParams();
+
+	// these parameters are used to do a lookup in the database
+	// if the "app_name = ccdaa" the query will look like
+	// 
+	// 	... AND authorization.name = 'ccdaa_login_auth'
+	// 
       $data = array(
         'name' => $this->MyBase->getConfigVariable('app_name') . "_login_auth",
         'token' => $key,
         'deleted_at' => $this->MyBase->getConfigVariable('database', 'dateplaceholder'),
         'expired_at' => $this->MyBase->getConfigVariable('database', 'dateplaceholder')
       );
-      $query = 'SELECT s.id, pt.title, pt.description FROM `authorization` AS a,preferences_text AS pt, sites AS s WHERE pt.projects_id IS NULL AND s.id=a.sites_id AND a.name=:name AND a.token=:token AND pt.sites_id=s.id AND s.deleted_at=:deleted_at AND a.deleted_at=:deleted_at AND a.expired_at=:expired_at';
+
+	# for debug
+	# print("Call init" + $data);
+	// print_r($data);
+	// die();
+
+      $query = <<<EOF
+SELECT
+	s.id, pt.title, pt.description
+FROM
+	authorization AS a
+	, preferences_text AS pt
+	, sites AS s
+WHERE
+	pt.projects_id IS NULL
+	AND s.id = a.sites_id
+	AND a.name = :name
+	AND a.token = :token
+	AND pt.sites_id = s.id
+	AND s.deleted_at = :deleted_at
+	AND a.deleted_at = :deleted_at
+	AND a.expired_at = :expired_at
+EOF;
+
       $this->MyPDO->prepareQuery(null, null, 0, $query);
+
+	// print_r($this->MyPDO);
         if($this->MyPDO->runQuery($data)) {
           $this->MyBase->logGeneral('Selecting the site');
           $sites_data = $this->MyPDO->getAll(4);
+
           if(count($sites_data) == 1) {
             $sites_id = $sites_data[0]['id'];
-
 
             // Get the list of projects under this site
             $this->MyPDO->resetParams();
@@ -292,7 +325,8 @@
             $this->MyBase->respond(false, 'Site Data Collected', $sites_data);
             $this->MyBase->sendResponse(false, false);
           } else {
-            $this->MyBase->respond(true, 'No site authorization with matching key. Check config.api_key in web/app/config.js. Curently set to: ' . $key . ' (init)', null);
+            $this->MyBase->respond(true,
+		'[inside init method]: No site authorization with matching key. Check config.api_key in web/app/config.js. Curently set to: ' . $key, null);
             $this->MyBase->sendResponse(false, true);
           }
         } else {

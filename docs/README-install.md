@@ -2,7 +2,9 @@
 
 ## Intro
 
-To install the CCDAA you can use the Vagrant-based tools to deploy to a local VM or Amazon Web Services.  Alternatively you can follow this procedure for manual deployment.
+To install the CCDAA you can use the Vagrant-based tools to deploy to a local
+VM or Amazon Web Services.  Alternatively you can follow this procedure for
+manual deployment.
 
 ## Requirements
 
@@ -19,7 +21,8 @@ To use this application you will need to meet these prerequisites:
 
 Notes:
 
-* Disk I/O - Though the application does not require high I/O, the first-time generation of the form structure in JSON is slow on disks with low IOPS. This is a one time delay that occurs the very first time the form is generated in each language.
+* Disk I/O - Though the application does not require high I/O, the first-time generation
+of the form structure in JSON is slow on disks with low IOPS. This is a one time delay that occurs the very first time the form is generated in each language.
 
 
 ## Installation Steps
@@ -78,7 +81,8 @@ Extract the CCDAA and media archives to the document root for this host.
         </Directory>
 
 
-* Web traffic to the root of the web space should be redirected to /web to simplify access via poorly qualified URLs.  This requires a rewrite rule in the port 443 virtual host configuration:
+* Web traffic to the root of the web space should be redirected to /web to simplify access via poorly qualified URLs. 
+This requires a rewrite rule in the port 443 virtual host configuration:
 
         RewriteEngine On
         RewriteRule ^/?$ /web/ [R,L]
@@ -120,10 +124,41 @@ Copy the file `./web/app/config.js.example` to `./web/app/config.js`
 
     sudo cp /var/www/ccdaa/web/app/config.js.example /var/www/ccdaa/web/app/config.js
 
-Edit these lines in `/var/www/ccdaa/web/app/config.js` to reflect your local needs.  `api_url` must point the web service.  `api_key` must be changed to a unique value for this instance.  The same value must be inserted into the `ccdaa_login_auth` record of the `authorization` table of the database.
+Edit these lines in `/var/www/ccdaa/web/app/config.js` to reflect your local needs.  `api_url` must point the web service. 
+`api_key` must be changed to a unique value for this instance.  The same value must be inserted into the `ccdaa_login_auth`
+record of the `authorization` table of the database.
 
     "api_url": "https://example.com/api/v1/",
     "api_key": "This is a long string unique to this deployment of the CCDAA.",
+
+Please run a query like this:
+
+	UPDATE authorization
+	SET token = '7b02422a35016bf1499be3442b0311f8'
+	WHERE
+	    name = 'ccdaa_login_auth'
+	LIMIT 1
+
+	select * from authorization where name = 'ccdaa_login_auth'\G;
+	*************************** 1. row ***************************
+		      id: 1
+		sites_id: 1
+	     projects_id: NULL
+	authorization_id: NULL
+	     sessions_id: NULL
+		    name: ccdaa_login_auth
+	     description: Key used by new sessions for CCDAA
+		  passid: 0
+		 passkey:
+		   token: 7b02422a35016bf1499be3442b0311f8
+	      created_at: 2017-07-13 19:34:29
+	      updated_at: 0000-00-00 00:00:00
+	      deleted_at: 0000-00-00 00:00:00
+	      expired_at: 0000-00-00 00:00:00
+	      checked_at: 0000-00-00 00:00:00
+	1 row in set (0.00 sec)
+
+
 
 
 ### Configure database in ./api/v1/
@@ -170,7 +205,9 @@ Then, create the tables and load the survey data by running these commands on th
 
 ### Generate the site keys
 
-The authorization data for the application will need to be updated to match the deployment details and provide a sufficient number of subject IDs for this study.
+The authorization data for the application will need to be updated to match the
+deployment details and provide a sufficient number of subject IDs for this
+study.
 
 Revise the root authorization record setting the _token_ field to the same value used for api_key above.
 
@@ -194,20 +231,32 @@ Now reset the passkey used in each of the authorization records:
 
 ### Test application
 
-Access the application at the hostname where it is deployed.  You should be redirected to the https://example.com/web/ and you should see an application welcome screen that looks something like this:
+Access the application at the hostname where it is deployed.  You should be
+redirected to the https://example.com/web/ and you should see an application
+welcome screen that looks something like this:
 
 ![CCDAA Welcome Screen](ccdaa-welcome-screen.png)
 
 
 ## Securing Access
 
-This application is secured via a passkey set on the authorization records.  This passkey is shared across all of the authorized patient records.  It should be shared only with study staff and clinic staff assisting with the study.
+This application is secured via a passkey set on the authorization records.
+This passkey is shared across all of the authorized patient records.  It should
+be shared only with study staff and clinic staff assisting with the study.
 
-The application itself is very open as survey applications often need to be.  Please add security at the network layer or via the web server as needed.  Devices accessing the application will need access to ports 80 and 443 of the host.  The application work will with any Apache authentication module such as basic authentication, LDAP, and Shibboleth.  The application has no features the depend on or consume the authentication data.
+The application itself is very open as survey applications often need to be.
+Please add security at the network layer or via the web server as needed.
+Devices accessing the application will need access to ports 80 and 443 of the
+host.  The application will wwork ith any Apache authentication module such as
+basic authentication, LDAP, and Shibboleth.  The application has no features
+the depend on or consume the authentication data.
 
 
 ## Data Backups
 
-CCDAA is dependent on normal MySQL database backup procedures to preserve form response data and authorization history.  In addition, log data is written to ./api/v1/logs/ and ./api/v1/responses/ and should be preserved to provide a full history of application activity.
+CCDAA is dependent on normal MySQL database backup procedures to preserve form
+response data and authorization history.  In addition, log data is written to
+./api/v1/logs/ and ./api/v1/responses/ and should be preserved to provide a
+full history of application activity.
 
 Database and file system backups are not in the scope of this document.

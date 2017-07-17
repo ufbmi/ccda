@@ -407,6 +407,10 @@
     }
 
     public function respond($error, $message, $results=array()) {
+	// Note: 
+	// this method can be used for debugging by passing the 
+	// debug info in the $results parameter
+
       if(!isset($message)) {
         $error = true;
         $message = 'No message or results method';
@@ -437,6 +441,8 @@
     }
 
     public function sendResponse($cancel=false, $terminate=false, $print=true) {
+	// when "cancel = true" this does nothing
+	// when "terminate = true" this stops execution 
       if(!$cancel) {
         try {
           if($print) {

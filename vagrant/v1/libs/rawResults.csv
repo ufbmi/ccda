@@ -1,0 +1,1409 @@
+10000,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10000,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10000,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10000,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,yes
+10000,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10000,Colorectal Cancer Screening History,Was your most recent colonoscopy:,less_than_10_years_ago
+10000,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,no
+10000,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,yes
+10000,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10000,Pre-Screening,Are you between 50 and 75?,yes
+10000,Pre-Screening,Age?,
+10000,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10001,Basic Information,What is your gender?,female
+10001,Basic Information,What is your preferred language?,en
+10001,Basic Information,Are you married or living with a partner?,no
+10001,Basic Information,Are you currently working?,yes_part_time
+10001,Basic Information,What is the highest grade/level of education that you have completed in the US?,middle_school
+10001,Basic Information,What is the highest grade/level of education that you have completed in other Country?,high_school
+10001,Basic Information,In what country were you born?,mexico
+10001,Basic Information,How long have you lived in the United States?,
+10001,Basic Information,Which one of the following would you say is your race?,american_indian_or_alaska_native
+10001,Basic Information,Before today had you ever heard of colorectal cancer?,no
+10001,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,yes
+10001,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,yes
+10001,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,yes
+10001,Basic Information,What is your ethnicity?,hispanic_or_latino
+10001,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10001,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10001,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10001,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10001,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,yes
+10001,Colorectal Cancer Screening History,Was your most recent colonoscopy:,less_than_10_years_ago
+10001,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,yes
+10001,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,yes
+10001,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10001,Pre-Screening,Are you between 50 and 75?,no
+10001,Pre-Screening,Age?,
+10001,Pre-Screening,Do you have a scheduled clinic visit today in FM?,no
+10001,Global Test Rating,Fecal Occult Blood Test,
+10001,Global Test Rating,Colonoscopy,
+10001,Global Test Rating,Flexible Sigmoidoscopy,
+10002,Pre-Screening,Are you between 50 and 75?,no
+10002,Pre-Screening,Age?,
+10002,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10003,Basic Information,What is your gender?,male
+10003,Basic Information,What is your preferred language?,es
+10003,Basic Information,Are you married or living with a partner?,no
+10003,Basic Information,Are you currently working?,yes_part_time
+10003,Basic Information,What is the highest grade/level of education that you have completed in the US?,high_school
+10003,Basic Information,What is the highest grade/level of education that you have completed in other Country?,high_school
+10003,Basic Information,In what country were you born?,mexico
+10003,Basic Information,How long have you lived in the United States?,
+10003,Basic Information,Which one of the following would you say is your race?,black_or_african_american
+10003,Basic Information,Before today had you ever heard of colorectal cancer?,yes
+10003,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,yes
+10003,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,yes
+10003,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,dont_know
+10003,Basic Information,If yes, what is your doctor's name?,
+10003,Basic Information,What is your ethnicity?,not_hispanic_or_latino
+10003,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10003,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,1
+10003,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10003,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10003,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10003,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10003,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10003,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10003,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10003,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10003,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10003,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10003,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10003,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10003,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10003,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,1
+10003,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,1
+10003,Knowledge,Regular screening for colon cancer may prevent this disease.,1
+10003,Knowledge,Most people who get colon cancer have no family history of the disease.,1
+10003,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,1
+10003,Knowledge,Men and women both can get colon cancer.,1
+10003,Knowledge,Your risk of colon cancer decreases with older age.,1
+10003,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,1
+10003,Knowledge,A person can have colon cancer without having pain or other symptoms.,1
+10003,Knowledge,There is no test to find colon cancer early.,1
+10003,Barriers,Cost,1
+10003,Barriers,Discomfort,2
+10003,Barriers,Inconvenience,2
+10003,Barriers,Fear of finding something wrong,2
+10003,Barriers,Worrying about the results,1
+10003,Barriers,Embarrassment,2
+10003,Barriers,Lack of time,2
+10003,Barriers,Problems with transportation,1
+10003,Barriers,Fear about the treatment,1
+10003,Barriers,Concerns about the messiness of the test,2
+10003,Barriers,Lack of information concerning colon cancer,1
+10003,Benefits,Some types of cancer can actually be cured.,2
+10003,Benefits,If colon cancer is detected early, chances of cure is very high.,2
+10003,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,2
+10003,Benefits,If I had a test to find colon cancer early, it could save my life.,2
+10003,Benefits,Having a test to find colon cancer early makes sense to me.,1
+10003,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,2
+10003,Benefits,I believe that a test to find colon cancer early can help to protect my health.,2
+10003,Benefits,Receiving clear findings would give me peace of mind,4
+10003,Benefits,My family would be happy if I got screened,4
+10003,Benefits,Most of my friends are getting screened,4
+10003,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10003,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10003,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10003,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10003,Intentions,My plans for getting a colon cancer test are,1
+10003,Intentions,I plan to have a test for colon cancer in the next  6 months,1
+10003,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,3
+10003,Self-Efficacy,Make a decision about whether to get screened for colon cancer,1
+10003,Self-Efficacy,Complete colon cancer screening,2
+10003,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,1
+10003,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,2
+10003,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,2
+10003,Self-Efficacy,Find time to complete colon cancer screening,1
+10003,Self-Efficacy,Talk to your doctor about  colon cancer screening,2
+10003,Self-Efficacy,Complete any necessary preparation for colon cancer screening,2
+10003,Self-Efficacy,Get support from family and friends for colon cancer screening,2
+10003,Self-Efficacy,Complete colon cancer screening even if you think your health is good,2
+10003,Self-Efficacy,Complete colon cancer screening even if you have financial worries,2
+10003,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,2
+10003,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,2
+10003,Process of Change,I rely more on home remedies than on doctors.,2
+10003,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,2
+10003,Process of Change,I keep a record or calendar so I know when to schedule my next doctor's appointment.,2
+10003,Decision Making,,1
+10003,Acculturation,In general, what language(s) do you speak?,2
+10003,Acculturation,In general, what language(s) do you read?,2
+10003,Acculturation,Your early life (childhood to teenage years) was spent:,1
+10003,Acculturation,Currently your circle of friends is:,4
+10003,Acculturation,In relation to having a Mexican background, I feel:,3
+10003,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,yes
+10003,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,yes
+10003,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10003,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,yes
+10003,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,yes
+10003,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10003,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,yes
+10003,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,no
+10003,Pre-Screening,Are you between 50 and 75?,yes
+10003,Pre-Screening,Age?,
+10003,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10003,Global Test Rating,Fecal Occult Blood Test,
+10003,Global Test Rating,Colonoscopy,
+10003,Global Test Rating,Flexible Sigmoidoscopy,
+10004,Basic Information,What is your gender?,male
+10004,Basic Information,What is your preferred language?,en
+10004,Basic Information,Are you married or living with a partner?,yes
+10004,Basic Information,Are you currently working?,yes_part_time
+10004,Basic Information,What is the highest grade/level of education that you have completed in the US?,grade_school
+10004,Basic Information,What is the highest grade/level of education that you have completed in other Country?,grade_school
+10004,Basic Information,In what country were you born?,mexico
+10004,Basic Information,How long have you lived in the United States?,
+10004,Basic Information,Which one of the following would you say is your race?,american_indian_or_alaska_native
+10004,Basic Information,Do you have a physician who you consider to be your regular doctor?,no
+10004,Basic Information,Before today had you ever heard of colorectal cancer?,yes
+10004,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,yes
+10004,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,yes
+10004,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,yes
+10004,Basic Information,What is your ethnicity?,hispanic_or_latino
+10004,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10004,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10004,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10004,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10004,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10004,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10004,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10004,Barriers,Embarrassment,1
+10004,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,1
+10004,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,2
+10004,Perceived Susceptibility,How worried are you that you may develop colon cancer?,2
+10004,Intentions,My plans for getting a colon cancer test are,3
+10004,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,1
+10004,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,1
+10004,Process of Change,I rely more on home remedies than on doctors.,1
+10004,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,1
+10004,Process of Change,I keep a record or calendar so I know when to schedule my next doctor's appointment.,1
+10004,Decision Making,,3
+10004,Acculturation,In general, what language(s) do you speak?,1
+10004,Acculturation,In general, what language(s) do you read?,1
+10004,Acculturation,Your early life (childhood to teenage years) was spent:,3
+10004,Acculturation,Currently your circle of friends is:,4
+10004,Acculturation,In relation to having a Mexican background, I feel:,2
+10004,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10004,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10004,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,less_than_a_year_ago
+10004,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10004,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10004,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10004,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,yes
+10004,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,yes
+10004,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10004,Pre-Screening,Are you between 50 and 75?,no
+10004,Pre-Screening,Age?,
+10004,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10004,Global Test Rating,Fecal Occult Blood Test,
+10004,Global Test Rating,Colonoscopy,
+10004,Global Test Rating,Flexible Sigmoidoscopy,
+10004,Amount of Colon Examined,FIT: ,0.4
+10004,Amount of Colon Examined,Colonoscopy: ,0.4
+10004,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.4
+10004,Accuracy,FIT: ,0.3
+10004,Accuracy,Colonoscopy: ,0.3
+10004,Accuracy,Flexible Sigmoidoscopy: ,0.3
+10004,Cost,FIT: ,0.3
+10004,Cost,Colonoscopy: ,0.3
+10004,Cost,Flexible Sigmoidoscopy: ,0.3
+10004,Complications,FIT: ,0.4
+10004,Complications,Colonoscopy: ,0.4
+10004,Complications,Flexible Sigmoidoscopy: ,0.4
+10004,Frequency,FIT: ,0.3
+10004,Frequency,Colonoscopy: ,0.3
+10004,Frequency,Flexible Sigmoidoscopy: ,0.3
+10004,Discomfort,FIT: ,0.3
+10004,Discomfort,Colonoscopy: ,0.3
+10004,Discomfort,Flexible Sigmoidoscopy: ,0.3
+10004,Further Testing,FIT: ,0.2
+10004,Further Testing,Colonoscopy: ,0.2
+10004,Further Testing,Flexible Sigmoidoscopy: ,0.2
+10004,Location,FIT: ,0.2
+10004,Location,Colonoscopy: ,0.3
+10004,Location,Flexible Sigmoidoscopy: ,0.3
+10004,Test Preparation,FIT: ,0.2
+10004,Test Preparation,Colonoscopy: ,0.2
+10004,Test Preparation,Flexible Sigmoidoscopy: ,0.2
+10004,Sedation,FIT: ,0.2
+10004,Sedation,Colonoscopy: ,0.2
+10004,Sedation,Flexible Sigmoidoscopy: ,0.2
+10004,Time,FIT: ,0.1
+10004,Time,Colonoscopy: ,0.2
+10004,Time,Flexible Sigmoidoscopy: ,0.3
+10004,Scientific Evidence,FIT: ,0.1
+10004,Scientific Evidence,Colonoscopy: ,0.2
+10004,Scientific Evidence,Flexible Sigmoidoscopy: ,0.3
+10004,Responsibilities,FIT: ,0.1
+10004,Responsibilities,Colonoscopy: ,0.2
+10004,Responsibilities,Flexible Sigmoidoscopy: ,0.3
+10004,Retrieving Results,,
+10004,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10004,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10004,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10004,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10004,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10004,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10004,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10004,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10004,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10004,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10004,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10004,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10004,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10004,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10004,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10004,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,0
+10004,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,0
+10004,,Sure of myself: ,1
+10004,,Understand information: ,1
+10004,,Risk-benefit ratio: ,1
+10004,,Encouragement: ,1
+10004,,How confident are you filling out forms by yourself? (Confident with Forms),1
+10004,,How often do you have someone (like a family member, friend, hospital/ clinic worker or caregiver) help you read hospital materials? (Help Read),1
+10004,,How often do you have problems learning about your medical condition because of difficulty understanding written information? (Problems Reading),1
+10004,,How good are you at working with fractions?,1
+10004,,How good are you at working with percentages?,2
+10004,,How good are you at calculating a 15% tip?,2
+10004,,How good are you at figuring out how much a shirt will cost if it is 25% off?,2
+10004,,When reading the newspaper, how helpful do you find tables and graphs that are parts of a
+story?,2
+10004,,When you hear a weather forecast, do you prefer predictions using percentages (e.g., “there will be a 20% chance of rain today”) or predictions using only words (e.g., “there is a small chance of rain today”)?,2
+10004,,How often do you find numerical information to be useful?,2
+10004,,When people tell you the chance of something happening, do you prefer that they use words ("it rarely happens") or numbers ("there's a 1% chance")?,2
+10005,Basic Information,What is your gender?,female
+10005,Basic Information,What is your preferred language?,es
+10005,Basic Information,Are you married or living with a partner?,no
+10005,Basic Information,Are you currently working?,yes_part_time
+10005,Basic Information,What is the highest grade/level of education that you have completed in the US?,grade_school
+10005,Basic Information,What is the highest grade/level of education that you have completed in other Country?,high_school
+10005,Basic Information,In what country were you born?,mexico
+10005,Basic Information,How long have you lived in the United States?,
+10005,Basic Information,Which one of the following would you say is your race?,american_indian_or_alaska_native
+10005,Basic Information,Do you have a physician who you consider to be your regular doctor?,yes
+10005,Basic Information,Before today had you ever heard of colorectal cancer?,yes
+10005,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,yes
+10005,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,dont_know
+10005,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,yes
+10005,Basic Information,If other, what is your country of birth?,
+10005,Basic Information,What is your ethnicity?,hispanic_or_latino
+10005,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10005,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10005,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10005,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10005,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10005,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10005,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10005,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10005,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10005,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10005,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10005,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10005,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10005,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10005,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10005,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,0
+10005,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10005,Knowledge,Regular screening for colon cancer may prevent this disease.,0
+10005,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10005,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10005,Knowledge,Men and women both can get colon cancer.,0
+10005,Knowledge,Your risk of colon cancer decreases with older age.,0
+10005,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,0
+10005,Knowledge,A person can have colon cancer without having pain or other symptoms.,0
+10005,Knowledge,There is no test to find colon cancer early.,0
+10005,Barriers,Cost,2
+10005,Barriers,Discomfort,2
+10005,Barriers,Inconvenience,2
+10005,Barriers,Fear of finding something wrong,2
+10005,Barriers,Worrying about the results,2
+10005,Barriers,Embarrassment,2
+10005,Barriers,Lack of time,2
+10005,Barriers,Problems with transportation,2
+10005,Barriers,Fear about the treatment,2
+10005,Barriers,Concerns about the messiness of the test,2
+10005,Barriers,Lack of information concerning colon cancer,2
+10005,Benefits,Some types of cancer can actually be cured.,2
+10005,Benefits,If colon cancer is detected early, chances of cure is very high.,2
+10005,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,2
+10005,Benefits,If I had a test to find colon cancer early, it could save my life.,2
+10005,Benefits,Having a test to find colon cancer early makes sense to me.,2
+10005,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,2
+10005,Benefits,I believe that a test to find colon cancer early can help to protect my health.,2
+10005,Benefits,Receiving clear findings would give me peace of mind,2
+10005,Benefits,My family would be happy if I got screened,2
+10005,Benefits,Most of my friends are getting screened,2
+10005,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10005,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10005,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10005,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10005,Intentions,My plans for getting a colon cancer test are,1
+10005,Intentions,I plan to have a test for colon cancer in the next  6 months,0
+10005,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,1
+10005,Self-Efficacy,Make a decision about whether to get screened for colon cancer,2
+10005,Self-Efficacy,Complete colon cancer screening,2
+10005,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,2
+10005,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,2
+10005,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,2
+10005,Self-Efficacy,Find time to complete colon cancer screening,2
+10005,Self-Efficacy,Talk to your doctor about  colon cancer screening,2
+10005,Self-Efficacy,Complete any necessary preparation for colon cancer screening,2
+10005,Self-Efficacy,Get support from family and friends for colon cancer screening,2
+10005,Self-Efficacy,Complete colon cancer screening even if you think your health is good,2
+10005,Self-Efficacy,Complete colon cancer screening even if you have financial worries,2
+10005,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,2
+10005,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,2
+10005,Process of Change,I rely more on home remedies than on doctors.,2
+10005,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,2
+10005,Process of Change,I keep a record or calendar so I know when to schedule my next doctor's appointment.,2
+10005,Decision Making,,1
+10005,Acculturation,In general, what language(s) do you speak?,2
+10005,Acculturation,In general, what language(s) do you read?,2
+10005,Acculturation,Your early life (childhood to teenage years) was spent:,1
+10005,Acculturation,Currently your circle of friends is:,1
+10005,Acculturation,In relation to having a Mexican background, I feel:,2
+10005,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,yes
+10005,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,yes
+10005,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,less_than_a_year_ago
+10005,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,yes
+10005,Colorectal Cancer Screening History,Was your most recent colonoscopy:,less_than_10_years_ago
+10005,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,yes
+10005,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,yes
+10005,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10005,Pre-Screening,Are you between 50 and 75?,no
+10005,Pre-Screening,Age?,
+10005,Pre-Screening,Do you have a scheduled clinic visit today in FM?,no
+10005,Global Test Rating,Fecal Occult Blood Test,
+10005,Global Test Rating,Colonoscopy,
+10005,Global Test Rating,Flexible Sigmoidoscopy,
+10005,Amount of Colon Examined,FIT: ,1.0
+10005,Amount of Colon Examined,Colonoscopy: ,1.0
+10005,Amount of Colon Examined,Flexible Sigmoidoscopy: ,1.0
+10005,Accuracy,FIT: ,1.0
+10005,Accuracy,Colonoscopy: ,1.0
+10005,Accuracy,Flexible Sigmoidoscopy: ,1.0
+10005,Cost,FIT: ,1.0
+10005,Cost,Colonoscopy: ,1.0
+10005,Cost,Flexible Sigmoidoscopy: ,1.0
+10005,Complications,FIT: ,1.0
+10005,Complications,Colonoscopy: ,1.0
+10005,Complications,Flexible Sigmoidoscopy: ,1.0
+10005,Frequency,FIT: ,1.0
+10005,Frequency,Colonoscopy: ,1.0
+10005,Frequency,Flexible Sigmoidoscopy: ,1.0
+10005,Discomfort,FIT: ,1.0
+10005,Discomfort,Colonoscopy: ,1.0
+10005,Discomfort,Flexible Sigmoidoscopy: ,1.0
+10005,Further Testing,FIT: ,1.0
+10005,Further Testing,Colonoscopy: ,1.0
+10005,Further Testing,Flexible Sigmoidoscopy: ,1.0
+10005,Location,FIT: ,1.0
+10005,Location,Colonoscopy: ,1.0
+10005,Location,Flexible Sigmoidoscopy: ,1.0
+10005,Test Preparation,FIT: ,1.0
+10005,Test Preparation,Colonoscopy: ,1.0
+10005,Test Preparation,Flexible Sigmoidoscopy: ,1.0
+10005,Sedation,FIT: ,1.0
+10005,Sedation,Colonoscopy: ,1.0
+10005,Sedation,Flexible Sigmoidoscopy: ,1.0
+10005,Time,FIT: ,1.0
+10005,Time,Colonoscopy: ,1.0
+10005,Time,Flexible Sigmoidoscopy: ,1.0
+10005,Scientific Evidence,FIT: ,1.0
+10005,Scientific Evidence,Colonoscopy: ,1.0
+10005,Scientific Evidence,Flexible Sigmoidoscopy: ,1.0
+10005,Responsibilities,FIT: ,1.0
+10005,Responsibilities,Colonoscopy: ,1.0
+10005,Responsibilities,Flexible Sigmoidoscopy: ,1.0
+10005,Retrieving Results,,
+10005,Usability Evaluation,I think that I would like to use this system frequently.,5
+10005,Usability Evaluation,I found the system unnecessarily complex.,5
+10005,Usability Evaluation,I thought the system was easy to use.,5
+10005,Usability Evaluation,I think that I would need the support of a technical person to be able to use this system.,5
+10005,Usability Evaluation,I found the various functions in this system were well integrated.,5
+10005,Usability Evaluation,I thought there was too much inconsistency in this system.,5
+10005,Usability Evaluation,I would imagine that most people would learn to use this system very quickly.,5
+10005,Usability Evaluation,I found the system very cumbersome to use.,5
+10005,Usability Evaluation,I felt very confident using the system.,5
+10005,Usability Evaluation,I needed to learn a lot of things before I could get going with this system.,5
+10005,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,1
+10005,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,1
+10005,Knowledge,Regular screening for colon cancer may prevent this disease.,1
+10005,Knowledge,Most people who get colon cancer have no family history of the disease.,1
+10005,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,1
+10005,Knowledge,Men and women both can get colon cancer.,1
+10005,Knowledge,Your risk of colon cancer decreases with older age.,1
+10005,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,1
+10005,Knowledge,A person can have colon cancer without having pain or other symptoms.,1
+10005,Knowledge,There is no test to find colon cancer early.,1
+10005,Barriers,Cost,4
+10005,Barriers,Discomfort,4
+10005,Barriers,Inconvenience,4
+10005,Barriers,Fear of finding something wrong,4
+10005,Barriers,Worrying about the results,4
+10005,Barriers,Embarrassment,4
+10005,Barriers,Lack of time,4
+10005,Barriers,Problems with transportation,4
+10005,Barriers,Fear about the treatment,4
+10005,Barriers,Concerns about the messiness of the test,4
+10005,Barriers,Lack of information concerning colon cancer,4
+10005,Benefits,Some types of cancer can actually be cured.,4
+10005,Benefits,If colon cancer is detected early, chances of cure is very high.,4
+10005,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,4
+10005,Benefits,If I had a test to find colon cancer early, it could save my life.,4
+10005,Benefits,Having a test to find colon cancer early makes sense to me.,4
+10005,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,4
+10005,Benefits,I believe that a test to find colon cancer early can help to protect my health.,4
+10005,Benefits,Receiving clear findings would give me peace of mind,4
+10005,Benefits,My family would be happy if I got screened,4
+10005,Benefits,Most of my friends are getting screened,4
+10005,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,3
+10005,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,3
+10005,Perceived Susceptibility,How worried are you that you may develop colon cancer?,4
+10005,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,4
+10005,Intentions,My plans for getting a colon cancer test are,5
+10005,Intentions,I plan to have a test for colon cancer in the next  6 months,1
+10005,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,4
+10005,Self-Efficacy,Make a decision about whether to get screened for colon cancer,5
+10005,Self-Efficacy,Complete colon cancer screening,5
+10005,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,5
+10005,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,5
+10005,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,5
+10005,Self-Efficacy,Find time to complete colon cancer screening,5
+10005,Self-Efficacy,Talk to your doctor about  colon cancer screening,5
+10005,Self-Efficacy,Complete any necessary preparation for colon cancer screening,5
+10005,Self-Efficacy,Get support from family and friends for colon cancer screening,5
+10005,Self-Efficacy,Complete colon cancer screening even if you think your health is good,5
+10005,Self-Efficacy,Complete colon cancer screening even if you have financial worries,5
+10005,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,5
+10005,SURE Test,Sure of myself: ,0
+10005,SURE Test,Understand information: ,0
+10005,SURE Test,Risk-benefit ratio: ,0
+10005,SURE Test,Encouragement: ,0
+10005,Acceptability,The length of presentation was ( check one),just_right
+10005,Acceptability,The amount of the information was ( check one),just_right
+10005,Acceptability,I found the presentation ( check one),balanced
+10005,Acceptability,Did  you  find this decision aid useful when you were making your decision about to get screening for colon cancer?,no
+10005,Acceptability,Impact of Colon Cancer,excellent
+10005,Acceptability,Type of screening test,excellent
+10005,Acceptability,Advantages of each test,excellent
+10005,Acceptability,Disadvantages of each test,excellent
+10005,Preparation for Decision Making Scale,Help you recognize that a decision needs to be made?,5
+10005,Preparation for Decision Making Scale,Prepare you to make a better decision?,5
+10005,Preparation for Decision Making Scale,Help you think about the pros and cons of each option?,5
+10005,Preparation for Decision Making Scale,Help you think about which pros and cons are most important?,5
+10005,Preparation for Decision Making Scale,Help you know that the decision depends on what matters most to you?,5
+10005,Preparation for Decision Making Scale,Help you organize your own thoughts about the decision?,5
+10005,Preparation for Decision Making Scale,Help you think about how involved you want to be in this decision?,5
+10005,Preparation for Decision Making Scale,Help you identify questions you want to ask your doctor?,5
+10005,Preparation for Decision Making Scale,Prepare you to talk to your doctor about what matters most to you?,5
+10005,Preparation for Decision Making Scale,Prepare you for a follow-up visit with your doctor?,5
+10005,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,1
+10005,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,1
+10005,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,1
+10005,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,1
+10005,Fatalism,I think if someone gets colon cancer, it was meant to be.,1
+10005,Fatalism,I think if someone gets colon cancer, their time to die is soon.,1
+10005,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,1
+10005,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,1
+10005,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,1
+10005,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,1
+10005,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,1
+10005,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,1
+10005,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,1
+10005,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,1
+10005,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,1
+10005,,Sure of myself: ,1
+10005,,Understand information: ,1
+10005,,Risk-benefit ratio: ,1
+10005,,Encouragement: ,1
+10005,,How confident are you filling out forms by yourself? (Confident with Forms),0
+10005,,How often do you have someone (like a family member, friend, hospital/ clinic worker or caregiver) help you read hospital materials? (Help Read),0
+10005,,How often do you have problems learning about your medical condition because of difficulty understanding written information? (Problems Reading),0
+10005,,How good are you at working with fractions?,2
+10005,,How good are you at working with percentages?,2
+10005,,How good are you at calculating a 15% tip?,2
+10005,,How good are you at figuring out how much a shirt will cost if it is 25% off?,2
+10005,,When reading the newspaper, how helpful do you find tables and graphs that are parts of a
+story?,2
+10005,,When you hear a weather forecast, do you prefer predictions using percentages (e.g., “there will be a 20% chance of rain today”) or predictions using only words (e.g., “there is a small chance of rain today”)?,2
+10005,,How often do you find numerical information to be useful?,2
+10005,,When people tell you the chance of something happening, do you prefer that they use words ("it rarely happens") or numbers ("there's a 1% chance")?,2
+10006,Basic Information,What is your gender?,male
+10006,Basic Information,What is your preferred language?,en
+10006,Basic Information,Are you married or living with a partner?,no
+10006,Basic Information,Are you currently working?,yes_part_time
+10006,Basic Information,What is the highest grade/level of education that you have completed in the US?,high_school
+10006,Basic Information,What is the highest grade/level of education that you have completed in other Country?,middle_school
+10006,Basic Information,In what country were you born?,mexico
+10006,Basic Information,How long have you lived in the United States?,
+10006,Basic Information,Which one of the following would you say is your race?,asian
+10006,Basic Information,Do you have a physician who you consider to be your regular doctor?,yes
+10006,Basic Information,Before today had you ever heard of colorectal cancer?,yes
+10006,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,yes
+10006,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,yes
+10006,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,yes
+10006,Basic Information,What is your ethnicity?,hispanic_or_latino
+10006,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10006,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10006,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10006,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10006,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10006,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10006,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10006,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10006,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10006,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10006,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10006,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10006,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10006,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10006,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10006,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,0
+10006,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10006,Knowledge,Regular screening for colon cancer may prevent this disease.,0
+10006,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10006,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10006,Knowledge,Men and women both can get colon cancer.,0
+10006,Knowledge,Your risk of colon cancer decreases with older age.,0
+10006,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,0
+10006,Knowledge,A person can have colon cancer without having pain or other symptoms.,0
+10006,Knowledge,There is no test to find colon cancer early.,0
+10006,Barriers,Cost,2
+10006,Barriers,Discomfort,2
+10006,Barriers,Inconvenience,2
+10006,Barriers,Fear of finding something wrong,2
+10006,Barriers,Worrying about the results,2
+10006,Barriers,Embarrassment,2
+10006,Barriers,Lack of time,2
+10006,Barriers,Problems with transportation,2
+10006,Barriers,Fear about the treatment,2
+10006,Barriers,Concerns about the messiness of the test,2
+10006,Barriers,Lack of information concerning colon cancer,2
+10006,Benefits,Some types of cancer can actually be cured.,2
+10006,Benefits,If colon cancer is detected early, chances of cure is very high.,2
+10006,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,2
+10006,Benefits,If I had a test to find colon cancer early, it could save my life.,2
+10006,Benefits,Having a test to find colon cancer early makes sense to me.,2
+10006,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,2
+10006,Benefits,I believe that a test to find colon cancer early can help to protect my health.,2
+10006,Benefits,Receiving clear findings would give me peace of mind,2
+10006,Benefits,My family would be happy if I got screened,2
+10006,Benefits,Most of my friends are getting screened,2
+10006,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10006,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10006,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10006,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10006,Intentions,My plans for getting a colon cancer test are,1
+10006,Intentions,I plan to have a test for colon cancer in the next  6 months,1
+10006,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,1
+10006,Self-Efficacy,Make a decision about whether to get screened for colon cancer,2
+10006,Self-Efficacy,Complete colon cancer screening,2
+10006,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,2
+10006,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,2
+10006,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,2
+10006,Self-Efficacy,Find time to complete colon cancer screening,2
+10006,Self-Efficacy,Talk to your doctor about  colon cancer screening,2
+10006,Self-Efficacy,Complete any necessary preparation for colon cancer screening,2
+10006,Self-Efficacy,Get support from family and friends for colon cancer screening,2
+10006,Self-Efficacy,Complete colon cancer screening even if you think your health is good,2
+10006,Self-Efficacy,Complete colon cancer screening even if you have financial worries,2
+10006,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,2
+10006,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,2
+10006,Process of Change,I rely more on home remedies than on doctors.,2
+10006,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,2
+10006,Process of Change,I keep a record or calendar so I know when to schedule my next doctor's appointment.,2
+10006,Decision Making,,1
+10006,Acculturation,In general, what language(s) do you speak?,2
+10006,Acculturation,In general, what language(s) do you read?,2
+10006,Acculturation,Your early life (childhood to teenage years) was spent:,2
+10006,Acculturation,Currently your circle of friends is:,2
+10006,Acculturation,In relation to having a Mexican background, I feel:,2
+10006,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10006,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10006,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10006,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10006,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10006,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10006,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,no
+10006,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,no
+10006,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10006,Pre-Screening,Are you between 50 and 75?,yes
+10006,Pre-Screening,Age?,
+10006,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10006,Global Test Rating,Fecal Occult Blood Test,
+10006,Global Test Rating,Colonoscopy,
+10006,Global Test Rating,Flexible Sigmoidoscopy,
+10006,Amount of Colon Examined,FIT: ,0.4
+10006,Amount of Colon Examined,Colonoscopy: ,0.4
+10006,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.4
+10006,Accuracy,FIT: ,0.2
+10006,Accuracy,Colonoscopy: ,0.2
+10006,Accuracy,Flexible Sigmoidoscopy: ,0.2
+10006,Cost,FIT: ,0.2
+10006,Cost,Colonoscopy: ,0.2
+10006,Cost,Flexible Sigmoidoscopy: ,0.2
+10006,Complications,FIT: ,0.2
+10006,Complications,Colonoscopy: ,0.2
+10006,Complications,Flexible Sigmoidoscopy: ,0.2
+10006,Frequency,FIT: ,0.2
+10006,Frequency,Colonoscopy: ,0.2
+10006,Frequency,Flexible Sigmoidoscopy: ,0.2
+10006,Discomfort,FIT: ,0.2
+10006,Discomfort,Colonoscopy: ,0.2
+10006,Discomfort,Flexible Sigmoidoscopy: ,0.2
+10006,Further Testing,FIT: ,0.2
+10006,Further Testing,Colonoscopy: ,0.2
+10006,Further Testing,Flexible Sigmoidoscopy: ,0.2
+10006,Location,FIT: ,0.2
+10006,Location,Colonoscopy: ,0.2
+10006,Location,Flexible Sigmoidoscopy: ,0.2
+10006,Test Preparation,FIT: ,0.2
+10006,Test Preparation,Colonoscopy: ,0.2
+10006,Test Preparation,Flexible Sigmoidoscopy: ,0.2
+10006,Sedation,FIT: ,0.2
+10006,Sedation,Colonoscopy: ,0.2
+10006,Sedation,Flexible Sigmoidoscopy: ,0.2
+10006,Time,FIT: ,0.2
+10006,Time,Colonoscopy: ,0.2
+10006,Time,Flexible Sigmoidoscopy: ,0.2
+10006,Scientific Evidence,FIT: ,0.2
+10006,Scientific Evidence,Colonoscopy: ,0.2
+10006,Scientific Evidence,Flexible Sigmoidoscopy: ,0.2
+10006,Responsibilities,FIT: ,0.2
+10006,Responsibilities,Colonoscopy: ,0.2
+10006,Responsibilities,Flexible Sigmoidoscopy: ,0.2
+10006,Retrieving Results,,
+10006,Usability Evaluation,I think that I would like to use this system frequently.,2
+10006,Usability Evaluation,I found the system unnecessarily complex.,2
+10006,Usability Evaluation,I thought the system was easy to use.,2
+10006,Usability Evaluation,I think that I would need the support of a technical person to be able to use this system.,2
+10006,Usability Evaluation,I found the various functions in this system were well integrated.,2
+10006,Usability Evaluation,I thought there was too much inconsistency in this system.,2
+10006,Usability Evaluation,I would imagine that most people would learn to use this system very quickly.,2
+10006,Usability Evaluation,I found the system very cumbersome to use.,2
+10006,Usability Evaluation,I felt very confident using the system.,2
+10006,Usability Evaluation,I needed to learn a lot of things before I could get going with this system.,2
+10006,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,0
+10006,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10006,Knowledge,Regular screening for colon cancer may prevent this disease.,0
+10006,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10006,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10006,Knowledge,Men and women both can get colon cancer.,0
+10006,Knowledge,Your risk of colon cancer decreases with older age.,0
+10006,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,0
+10006,Knowledge,A person can have colon cancer without having pain or other symptoms.,0
+10006,Knowledge,There is no test to find colon cancer early.,0
+10006,Barriers,Cost,2
+10006,Barriers,Discomfort,2
+10006,Barriers,Inconvenience,2
+10006,Barriers,Fear of finding something wrong,2
+10006,Barriers,Worrying about the results,2
+10006,Barriers,Embarrassment,2
+10006,Barriers,Lack of time,2
+10006,Barriers,Problems with transportation,2
+10006,Barriers,Fear about the treatment,2
+10006,Barriers,Concerns about the messiness of the test,2
+10006,Barriers,Lack of information concerning colon cancer,2
+10006,Benefits,Some types of cancer can actually be cured.,2
+10006,Benefits,If colon cancer is detected early, chances of cure is very high.,2
+10006,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,2
+10006,Benefits,If I had a test to find colon cancer early, it could save my life.,2
+10006,Benefits,Having a test to find colon cancer early makes sense to me.,2
+10006,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,2
+10006,Benefits,I believe that a test to find colon cancer early can help to protect my health.,2
+10006,Benefits,Receiving clear findings would give me peace of mind,2
+10006,Benefits,My family would be happy if I got screened,2
+10006,Benefits,Most of my friends are getting screened,2
+10006,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10006,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10006,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10006,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10006,Intentions,My plans for getting a colon cancer test are,1
+10006,Intentions,I plan to have a test for colon cancer in the next  6 months,0
+10006,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,2
+10006,Self-Efficacy,Make a decision about whether to get screened for colon cancer,2
+10006,Self-Efficacy,Complete colon cancer screening,2
+10006,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,2
+10006,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,2
+10006,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,2
+10006,Self-Efficacy,Find time to complete colon cancer screening,2
+10006,Self-Efficacy,Talk to your doctor about  colon cancer screening,2
+10006,Self-Efficacy,Complete any necessary preparation for colon cancer screening,2
+10006,Self-Efficacy,Get support from family and friends for colon cancer screening,2
+10006,Self-Efficacy,Complete colon cancer screening even if you think your health is good,2
+10006,Self-Efficacy,Complete colon cancer screening even if you have financial worries,2
+10006,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,2
+10006,Decision Conflict Scale,Do you know which options are available to you?,0
+10006,Decision Conflict Scale,Do you know the benefits of each option?,0
+10006,Decision Conflict Scale,Do you know the risks and side effects of each option?,0
+10006,Decision Conflict Scale,Are you clear about which benefits matter most to you?,0
+10006,Decision Conflict Scale,Are you clear about which risks and side effects matter most to you?,0
+10006,Decision Conflict Scale,Do you have enough support from others to make a choice?,0
+10006,Decision Conflict Scale,Are you choosing without pressure from others?,0
+10006,Decision Conflict Scale,Do you have enough advice to make a choice?,0
+10006,Decision Conflict Scale,Are you clear about the best choice for you?,0
+10006,Decision Conflict Scale,Do you feel sure about what to choose?,0
+10006,SURE Test,Sure of myself: ,1
+10006,SURE Test,Understand information: ,1
+10006,SURE Test,Risk-benefit ratio: ,1
+10006,SURE Test,Encouragement: ,1
+10006,Acceptability,The length of presentation was ( check one),too_long
+10006,Acceptability,The amount of the information was ( check one),too_much_information
+10006,Acceptability,I found the presentation ( check one),slanted_towards_fit
+10006,Acceptability,Did  you  find this decision aid useful when you were making your decision about to get screening for colon cancer?,yes
+10006,Acceptability,Impact of Colon Cancer,fair
+10006,Acceptability,Type of screening test,fair
+10006,Acceptability,Advantages of each test,fair
+10006,Acceptability,Disadvantages of each test,fair
+10006,Preparation for Decision Making Scale,Help you recognize that a decision needs to be made?,2
+10006,Preparation for Decision Making Scale,Prepare you to make a better decision?,2
+10006,Preparation for Decision Making Scale,Help you think about the pros and cons of each option?,2
+10006,Preparation for Decision Making Scale,Help you think about which pros and cons are most important?,2
+10006,Preparation for Decision Making Scale,Help you know that the decision depends on what matters most to you?,2
+10006,Preparation for Decision Making Scale,Help you organize your own thoughts about the decision?,2
+10006,Preparation for Decision Making Scale,Help you think about how involved you want to be in this decision?,2
+10006,Preparation for Decision Making Scale,Help you identify questions you want to ask your doctor?,2
+10006,Preparation for Decision Making Scale,Prepare you to talk to your doctor about what matters most to you?,2
+10006,Preparation for Decision Making Scale,Prepare you for a follow-up visit with your doctor?,2
+10006,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10006,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10006,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10006,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10006,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10006,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10006,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10006,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10006,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10006,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10006,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10006,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10006,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10006,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10006,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,0
+10006,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,0
+10006,,Sure of myself: ,1
+10006,,Understand information: ,1
+10006,,Risk-benefit ratio: ,1
+10006,,Encouragement: ,1
+10006,,How confident are you filling out forms by yourself? (Confident with Forms),1
+10006,,How often do you have someone (like a family member, friend, hospital/ clinic worker or caregiver) help you read hospital materials? (Help Read),1
+10006,,How often do you have problems learning about your medical condition because of difficulty understanding written information? (Problems Reading),1
+10006,,How good are you at working with fractions?,2
+10006,,How good are you at working with percentages?,2
+10006,,How good are you at calculating a 15% tip?,2
+10006,,How good are you at figuring out how much a shirt will cost if it is 25% off?,2
+10006,,When reading the newspaper, how helpful do you find tables and graphs that are parts of a
+story?,2
+10006,,When you hear a weather forecast, do you prefer predictions using percentages (e.g., “there will be a 20% chance of rain today”) or predictions using only words (e.g., “there is a small chance of rain today”)?,2
+10006,,How often do you find numerical information to be useful?,2
+10006,,When people tell you the chance of something happening, do you prefer that they use words ("it rarely happens") or numbers ("there's a 1% chance")?,2
+10007,Amount of Colon Examined,FIT: ,0.5
+10007,Amount of Colon Examined,Colonoscopy: ,0.5
+10007,Amount of Colon Examined,Flexible Sigmoidoscopy: ,1.0
+10007,Accuracy,FIT: ,0.4
+10007,Accuracy,Colonoscopy: ,0.5
+10007,Accuracy,Flexible Sigmoidoscopy: ,0.6
+10007,Cost,FIT: ,0.2
+10007,Cost,Colonoscopy: ,0.4
+10007,Cost,Flexible Sigmoidoscopy: ,0.5
+10007,Complications,FIT: ,0.3
+10007,Complications,Colonoscopy: ,0.4
+10007,Complications,Flexible Sigmoidoscopy: ,0.5
+10007,Frequency,FIT: ,0.3
+10007,Frequency,Colonoscopy: ,0.4
+10007,Frequency,Flexible Sigmoidoscopy: ,0.5
+10007,Discomfort,FIT: ,0.4
+10007,Discomfort,Colonoscopy: ,0.5
+10007,Discomfort,Flexible Sigmoidoscopy: ,0.6
+10007,Further Testing,FIT: ,0.3
+10007,Further Testing,Colonoscopy: ,0.4
+10007,Further Testing,Flexible Sigmoidoscopy: ,0.5
+10007,Location,FIT: ,0.3
+10007,Location,Colonoscopy: ,0.4
+10007,Location,Flexible Sigmoidoscopy: ,0.6
+10007,Test Preparation,FIT: ,0.4
+10007,Test Preparation,Colonoscopy: ,0.5
+10007,Test Preparation,Flexible Sigmoidoscopy: ,0.6
+10007,Sedation,FIT: ,0.4
+10007,Sedation,Colonoscopy: ,0.5
+10007,Sedation,Flexible Sigmoidoscopy: ,0.5
+10007,Time,FIT: ,0.3
+10007,Time,Colonoscopy: ,0.4
+10007,Time,Flexible Sigmoidoscopy: ,0.5
+10007,Scientific Evidence,FIT: ,0.5
+10007,Scientific Evidence,Colonoscopy: ,0.4
+10007,Scientific Evidence,Flexible Sigmoidoscopy: ,0.3
+10007,Responsibilities,FIT: ,0.4
+10007,Responsibilities,Colonoscopy: ,0.5
+10007,Responsibilities,Flexible Sigmoidoscopy: ,0.6
+10007,Retrieving Results,,
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,0
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,2
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,4
+10007,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,0
+10007,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,2
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,4
+10007,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,0
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,2
+10007,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,4
+10007,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,4
+10008,Amount of Colon Examined,FIT: ,0.6
+10008,Amount of Colon Examined,Colonoscopy: ,0.6
+10008,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.6
+10008,Accuracy,FIT: ,0.6
+10008,Accuracy,Colonoscopy: ,0.6
+10008,Accuracy,Flexible Sigmoidoscopy: ,0.6
+10008,Cost,FIT: ,0.6
+10008,Cost,Colonoscopy: ,0.6
+10008,Cost,Flexible Sigmoidoscopy: ,0.6
+10008,Complications,FIT: ,0.6
+10008,Complications,Colonoscopy: ,0.6
+10008,Complications,Flexible Sigmoidoscopy: ,0.6
+10008,Frequency,FIT: ,0.6
+10008,Frequency,Colonoscopy: ,0.6
+10008,Frequency,Flexible Sigmoidoscopy: ,0.6
+10008,Discomfort,FIT: ,0.6
+10008,Discomfort,Colonoscopy: ,0.6
+10008,Discomfort,Flexible Sigmoidoscopy: ,0.6
+10008,Further Testing,FIT: ,0.6
+10008,Further Testing,Colonoscopy: ,0.6
+10008,Further Testing,Flexible Sigmoidoscopy: ,0.6
+10008,Location,FIT: ,0.6
+10008,Location,Colonoscopy: ,0.6
+10008,Location,Flexible Sigmoidoscopy: ,0.6
+10008,Test Preparation,FIT: ,0.6
+10008,Test Preparation,Colonoscopy: ,0.6
+10008,Test Preparation,Flexible Sigmoidoscopy: ,0.6
+10008,Sedation,FIT: ,0.5
+10008,Sedation,Colonoscopy: ,0.5
+10008,Sedation,Flexible Sigmoidoscopy: ,0.6
+10008,Time,FIT: ,0.5
+10008,Time,Colonoscopy: ,0.5
+10008,Time,Flexible Sigmoidoscopy: ,0.5
+10008,Scientific Evidence,FIT: ,0.5
+10008,Scientific Evidence,Colonoscopy: ,0.5
+10008,Scientific Evidence,Flexible Sigmoidoscopy: ,0.5
+10008,Responsibilities,FIT: ,0.5
+10008,Responsibilities,Colonoscopy: ,0.5
+10008,Responsibilities,Flexible Sigmoidoscopy: ,0.5
+10008,Retrieving Results,,
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,0
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,2
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,4
+10008,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,4
+10008,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,2
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,0
+10008,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,2
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,4
+10008,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,4
+10008,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,2
+10010,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,4
+10010,Process of Change,I rely more on home remedies than on doctors.,1
+10012,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10012,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10012,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,less_than_a_year_ago
+10012,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10012,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10012,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10012,Pre-Screening,Are you between 50 and 75?,no
+10012,Pre-Screening,Age?,
+10012,Pre-Screening,Do you have a scheduled clinic visit today in FM?,no
+10013,Basic Information,What is your gender?,male
+10013,Basic Information,What is your preferred language?,en
+10013,Basic Information,Are you married or living with a partner?,no
+10013,Basic Information,Are you currently working?,no
+10013,Basic Information,What is the highest grade/level of education that you have completed in the US?,grade_school
+10013,Basic Information,What is the highest grade/level of education that you have completed in other Country?,grade_school
+10013,Basic Information,In what country were you born?,united_states
+10013,Basic Information,How long have you lived in the United States?,
+10013,Basic Information,Which one of the following would you say is your race?,american_indian_or_alaska_native
+10013,Basic Information,Do you have a physician who you consider to be your regular doctor?,no
+10013,Basic Information,Before today had you ever heard of colorectal cancer?,no
+10013,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,no
+10013,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,no
+10013,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,no
+10013,Basic Information,If yes, what is your doctor's name?,
+10013,Basic Information,What is your ethnicity?,hispanic_or_latino
+10013,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10013,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10013,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10013,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10013,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10013,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10013,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10013,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10013,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10013,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10013,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10013,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10013,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10013,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10013,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10013,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,0
+10013,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10013,Knowledge,Regular screening for colon cancer may prevent this disease.,0
+10013,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10013,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10013,Knowledge,Men and women both can get colon cancer.,0
+10013,Knowledge,Your risk of colon cancer decreases with older age.,0
+10013,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,0
+10013,Knowledge,A person can have colon cancer without having pain or other symptoms.,0
+10013,Knowledge,There is no test to find colon cancer early.,0
+10013,Barriers,Cost,1
+10013,Barriers,Discomfort,1
+10013,Barriers,Inconvenience,1
+10013,Barriers,Fear of finding something wrong,1
+10013,Barriers,Worrying about the results,1
+10013,Barriers,Embarrassment,1
+10013,Barriers,Lack of time,1
+10013,Barriers,Problems with transportation,1
+10013,Barriers,Fear about the treatment,1
+10013,Barriers,Concerns about the messiness of the test,1
+10013,Barriers,Lack of information concerning colon cancer,1
+10013,Benefits,Some types of cancer can actually be cured.,1
+10013,Benefits,If colon cancer is detected early, chances of cure is very high.,1
+10013,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,1
+10013,Benefits,If I had a test to find colon cancer early, it could save my life.,1
+10013,Benefits,Having a test to find colon cancer early makes sense to me.,1
+10013,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,1
+10013,Benefits,I believe that a test to find colon cancer early can help to protect my health.,1
+10013,Benefits,Receiving clear findings would give me peace of mind,1
+10013,Benefits,My family would be happy if I got screened,1
+10013,Benefits,Most of my friends are getting screened,1
+10013,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10013,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10013,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10013,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10013,Intentions,My plans for getting a colon cancer test are,1
+10013,Intentions,I plan to have a test for colon cancer in the next  6 months,0
+10013,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,1
+10013,Self-Efficacy,Make a decision about whether to get screened for colon cancer,1
+10013,Self-Efficacy,Complete colon cancer screening,1
+10013,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,1
+10013,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,1
+10013,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,1
+10013,Self-Efficacy,Find time to complete colon cancer screening,1
+10013,Self-Efficacy,Talk to your doctor about  colon cancer screening,1
+10013,Self-Efficacy,Complete any necessary preparation for colon cancer screening,1
+10013,Self-Efficacy,Get support from family and friends for colon cancer screening,1
+10013,Self-Efficacy,Complete colon cancer screening even if you think your health is good,1
+10013,Self-Efficacy,Complete colon cancer screening even if you have financial worries,1
+10013,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,1
+10013,Process of Change,Generally speaking, when I'm sick, I try to cure myself rather than go to the doctor,1
+10013,Process of Change,I rely more on home remedies than on doctors.,1
+10013,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,1
+10013,Process of Change,I keep a record or calendar so I know when to schedule my next doctor's appointment.,1
+10013,Decision Making,,1
+10013,Acculturation,In general, what language(s) do you speak?,1
+10013,Acculturation,In general, what language(s) do you read?,1
+10013,Acculturation,Your early life (childhood to teenage years) was spent:,1
+10013,Acculturation,Currently your circle of friends is:,1
+10013,Acculturation,In relation to having a Mexican background, I feel:,1
+10013,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10013,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10013,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10013,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10013,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10013,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10013,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,no
+10013,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,no
+10013,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10013,Pre-Screening,Are you between 50 and 75?,yes
+10013,Pre-Screening,Age?,
+10013,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10013,Global Test Rating,Fecal Occult Blood Test,
+10013,Global Test Rating,Colonoscopy,
+10013,Global Test Rating,Flexible Sigmoidoscopy,
+10013,Amount of Colon Examined,FIT: ,0.1
+10013,Amount of Colon Examined,Colonoscopy: ,0.1
+10013,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.1
+10013,Accuracy,FIT: ,0.1
+10013,Accuracy,Colonoscopy: ,0.1
+10013,Accuracy,Flexible Sigmoidoscopy: ,0.1
+10013,Cost,FIT: ,0.1
+10013,Cost,Colonoscopy: ,0.1
+10013,Cost,Flexible Sigmoidoscopy: ,0.1
+10013,Complications,FIT: ,0.1
+10013,Complications,Colonoscopy: ,0.1
+10013,Complications,Flexible Sigmoidoscopy: ,0.1
+10013,Frequency,FIT: ,0.1
+10013,Frequency,Colonoscopy: ,0.1
+10013,Frequency,Flexible Sigmoidoscopy: ,0.1
+10013,Discomfort,FIT: ,0.1
+10013,Discomfort,Colonoscopy: ,0.1
+10013,Discomfort,Flexible Sigmoidoscopy: ,0.1
+10013,Further Testing,FIT: ,0.1
+10013,Further Testing,Colonoscopy: ,0.1
+10013,Further Testing,Flexible Sigmoidoscopy: ,0.1
+10013,Location,FIT: ,0.1
+10013,Location,Colonoscopy: ,0.1
+10013,Location,Flexible Sigmoidoscopy: ,0.1
+10013,Test Preparation,FIT: ,0.1
+10013,Test Preparation,Colonoscopy: ,0.1
+10013,Test Preparation,Flexible Sigmoidoscopy: ,0.1
+10013,Sedation,FIT: ,0.1
+10013,Sedation,Colonoscopy: ,0.1
+10013,Sedation,Flexible Sigmoidoscopy: ,0.1
+10013,Time,FIT: ,0.1
+10013,Time,Colonoscopy: ,0.1
+10013,Time,Flexible Sigmoidoscopy: ,0.1
+10013,Scientific Evidence,FIT: ,0.1
+10013,Scientific Evidence,Colonoscopy: ,0.1
+10013,Scientific Evidence,Flexible Sigmoidoscopy: ,0.1
+10013,Responsibilities,FIT: ,0.1
+10013,Responsibilities,Colonoscopy: ,0.1
+10013,Responsibilities,Flexible Sigmoidoscopy: ,0.1
+10013,Retrieving Results,,
+10013,Usability Evaluation,I think that I would like to use this system frequently.,1
+10013,Usability Evaluation,I found the system unnecessarily complex.,1
+10013,Usability Evaluation,I thought the system was easy to use.,1
+10013,Usability Evaluation,I think that I would need the support of a technical person to be able to use this system.,1
+10013,Usability Evaluation,I found the various functions in this system were well integrated.,1
+10013,Usability Evaluation,I thought there was too much inconsistency in this system.,1
+10013,Usability Evaluation,I would imagine that most people would learn to use this system very quickly.,1
+10013,Usability Evaluation,I found the system very cumbersome to use.,1
+10013,Usability Evaluation,I felt very confident using the system.,1
+10013,Usability Evaluation,I needed to learn a lot of things before I could get going with this system.,1
+10013,Knowledge,If colon cancer is caught at an early stage, a person has a 90% chance of being cured.,0
+10013,Knowledge,People at average risk should start getting screened for colon cancer at age 60.,0
+10013,Knowledge,Regular screening for colon cancer may prevent this disease.,0
+10013,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10013,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10013,Knowledge,Men and women both can get colon cancer.,0
+10013,Knowledge,Your risk of colon cancer decreases with older age.,0
+10013,Knowledge,If one of your parents gets colon cancer it increases your chance of getting colon cancer.,0
+10013,Knowledge,A person can have colon cancer without having pain or other symptoms.,0
+10013,Knowledge,There is no test to find colon cancer early.,0
+10013,Barriers,Cost,1
+10013,Barriers,Discomfort,1
+10013,Barriers,Inconvenience,1
+10013,Barriers,Fear of finding something wrong,1
+10013,Barriers,Worrying about the results,1
+10013,Barriers,Embarrassment,1
+10013,Barriers,Lack of time,1
+10013,Barriers,Problems with transportation,1
+10013,Barriers,Fear about the treatment,1
+10013,Barriers,Concerns about the messiness of the test,1
+10013,Barriers,Lack of information concerning colon cancer,1
+10013,Benefits,Some types of cancer can actually be cured.,1
+10013,Benefits,If colon cancer is detected early, chances of cure is very high.,1
+10013,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,1
+10013,Benefits,If I had a test to find colon cancer early, it could save my life.,1
+10013,Benefits,Having a test to find colon cancer early makes sense to me.,1
+10013,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,1
+10013,Benefits,I believe that a test to find colon cancer early can help to protect my health.,1
+10013,Benefits,Receiving clear findings would give me peace of mind,1
+10013,Benefits,My family would be happy if I got screened,1
+10013,Benefits,Most of my friends are getting screened,1
+10013,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10013,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10013,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10013,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,1
+10013,Intentions,My plans for getting a colon cancer test are,1
+10013,Intentions,I plan to have a test for colon cancer in the next  6 months,0
+10013,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,1
+10013,Self-Efficacy,Make a decision about whether to get screened for colon cancer,1
+10013,Self-Efficacy,Complete colon cancer screening,1
+10013,Self-Efficacy,Complete colon cancer screening, even if you are nervous about it,1
+10013,Self-Efficacy,Complete colon cancer screening even if you are embarrassed about it,1
+10013,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,1
+10013,Self-Efficacy,Find time to complete colon cancer screening,1
+10013,Self-Efficacy,Talk to your doctor about  colon cancer screening,1
+10013,Self-Efficacy,Complete any necessary preparation for colon cancer screening,1
+10013,Self-Efficacy,Get support from family and friends for colon cancer screening,1
+10013,Self-Efficacy,Complete colon cancer screening even if you think your health is good,1
+10013,Self-Efficacy,Complete colon cancer screening even if you have financial worries,1
+10013,Self-Efficacy,Complete colon cancer screening even if you have transportation problems,1
+10013,Decision Conflict Scale,Do you know which options are available to you?,0
+10013,Decision Conflict Scale,Do you know the benefits of each option?,0
+10013,Decision Conflict Scale,Do you know the risks and side effects of each option?,0
+10013,Decision Conflict Scale,Are you clear about which benefits matter most to you?,0
+10013,Decision Conflict Scale,Are you clear about which risks and side effects matter most to you?,0
+10013,Decision Conflict Scale,Do you have enough support from others to make a choice?,0
+10013,Decision Conflict Scale,Are you choosing without pressure from others?,0
+10013,Decision Conflict Scale,Do you have enough advice to make a choice?,0
+10013,Decision Conflict Scale,Are you clear about the best choice for you?,0
+10013,Decision Conflict Scale,Do you feel sure about what to choose?,0
+10013,SURE Test,Sure of myself: ,1
+10013,SURE Test,Understand information: ,1
+10013,SURE Test,Risk-benefit ratio: ,1
+10013,SURE Test,Encouragement: ,1
+10013,Acceptability,The length of presentation was ( check one),too_long
+10013,Acceptability,The amount of the information was ( check one),too_much_information
+10013,Acceptability,I found the presentation ( check one),slanted_towards_fit
+10013,Acceptability,Did  you  find this decision aid useful when you were making your decision about to get screening for colon cancer?,yes
+10013,Acceptability,Impact of Colon Cancer,poor
+10013,Acceptability,Type of screening test,poor
+10013,Acceptability,Advantages of each test,poor
+10013,Acceptability,Disadvantages of each test,poor
+10013,Preparation for Decision Making Scale,Help you recognize that a decision needs to be made?,1
+10013,Preparation for Decision Making Scale,Prepare you to make a better decision?,1
+10013,Preparation for Decision Making Scale,Help you think about the pros and cons of each option?,1
+10013,Preparation for Decision Making Scale,Help you think about which pros and cons are most important?,1
+10013,Preparation for Decision Making Scale,Help you know that the decision depends on what matters most to you?,1
+10013,Preparation for Decision Making Scale,Help you organize your own thoughts about the decision?,1
+10013,Preparation for Decision Making Scale,Help you think about how involved you want to be in this decision?,1
+10013,Preparation for Decision Making Scale,Help you identify questions you want to ask your doctor?,1
+10013,Preparation for Decision Making Scale,Prepare you to talk to your doctor about what matters most to you?,1
+10013,Preparation for Decision Making Scale,Prepare you for a follow-up visit with your doctor?,1
+10013,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter what kinds of food they eat, they will get colon cancer anyway.,0
+10013,Fatalism,I think if someone has colon cancer, it is already too late to get treated for it.,0
+10013,Fatalism,I think someone can eat fatty foods all their life, and if they are not meant to get colon cancer, they won't get it.,0
+10013,Fatalism,I think if someone is meant to get colon cancer, they will get it no matter what they do.,0
+10013,Fatalism,I think if someone gets colon cancer, it was meant to be.,0
+10013,Fatalism,I think if someone gets colon cancer, their time to die is soon.,0
+10013,Fatalism,I think if someone gets colon cancer, that's the way they were meant to die.,0
+10013,Fatalism,I think getting checked for colon cancer makes people scared that they may really have colon cancer.,0
+10013,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10013,Fatalism,I think some people don't want to know if they have colon cancer because they don't want to know they may be dying from it.,0
+10013,Fatalism,I think if someone gets colon cancer, it doesn't matter whether they find it early or late, they will still die from it.,0
+10013,Fatalism,I think if someone has colon cancer and gets treatment for it, they will probably still die from the colon cancer.,0
+10013,Fatalism,I think if someone was meant to have colon cancer, it doesn't matter what doctors and nurses tell them to do, they will get colon cancer.,0
+10013,Fatalism,I think if someone is meant to have colon cancer, it doesn't matter if they eat healthy foods, they will still get colon cancer.,0
+10013,Fatalism,I think colon cancer will kill you no matter when it is found and how it is treated.,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,0
+10013,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,0
+10013,,Sure of myself: ,1
+10013,,Understand information: ,1
+10013,,Risk-benefit ratio: ,1
+10013,,Encouragement: ,1
+10013,,How confident are you filling out forms by yourself? (Confident with Forms),0
+10013,,How often do you have someone (like a family member, friend, hospital/ clinic worker or caregiver) help you read hospital materials? (Help Read),0
+10013,,How often do you have problems learning about your medical condition because of difficulty understanding written information? (Problems Reading),0
+10013,,How good are you at working with fractions?,1
+10013,,How good are you at working with percentages?,1
+10013,,How good are you at calculating a 15% tip?,1
+10013,,How good are you at figuring out how much a shirt will cost if it is 25% off?,1
+10013,,When reading the newspaper, how helpful do you find tables and graphs that are parts of a
+story?,1
+10013,,When you hear a weather forecast, do you prefer predictions using percentages (e.g., “there will be a 20% chance of rain today”) or predictions using only words (e.g., “there is a small chance of rain today”)?,1
+10013,,How often do you find numerical information to be useful?,1
+10013,,When people tell you the chance of something happening, do you prefer that they use words ("it rarely happens") or numbers ("there's a 1% chance")?,1
+10014,Amount of Colon Examined,FIT: ,0.1
+10014,Amount of Colon Examined,Colonoscopy: ,0.1
+10014,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.1
+10014,Accuracy,FIT: ,0.1
+10014,Accuracy,Colonoscopy: ,0.1
+10014,Accuracy,Flexible Sigmoidoscopy: ,0.1
+10014,Cost,FIT: ,0.1
+10014,Cost,Colonoscopy: ,0.1
+10014,Cost,Flexible Sigmoidoscopy: ,0.1
+10014,Complications,FIT: ,0.1
+10014,Complications,Colonoscopy: ,0.1
+10014,Complications,Flexible Sigmoidoscopy: ,0.1
+10014,Frequency,FIT: ,0.1
+10014,Frequency,Colonoscopy: ,0.1
+10014,Frequency,Flexible Sigmoidoscopy: ,0.1
+10014,Discomfort,FIT: ,0.1
+10014,Discomfort,Colonoscopy: ,0.1
+10014,Discomfort,Flexible Sigmoidoscopy: ,0.1
+10014,Further Testing,FIT: ,0.1
+10014,Further Testing,Colonoscopy: ,0.1
+10014,Further Testing,Flexible Sigmoidoscopy: ,0.1
+10014,Location,FIT: ,0.1
+10014,Location,Colonoscopy: ,0.1
+10014,Location,Flexible Sigmoidoscopy: ,0.1
+10014,Test Preparation,FIT: ,0.1
+10014,Test Preparation,Colonoscopy: ,0.1
+10014,Test Preparation,Flexible Sigmoidoscopy: ,0.1
+10014,Sedation,FIT: ,0.1
+10014,Sedation,Colonoscopy: ,0.1
+10014,Sedation,Flexible Sigmoidoscopy: ,0.1
+10014,Time,FIT: ,0.1
+10014,Time,Colonoscopy: ,0.1
+10014,Time,Flexible Sigmoidoscopy: ,0.1
+10014,Scientific Evidence,FIT: ,0.1
+10014,Scientific Evidence,Colonoscopy: ,0.1
+10014,Scientific Evidence,Flexible Sigmoidoscopy: ,0.1
+10014,Responsibilities,FIT: ,0.1
+10014,Responsibilities,Colonoscopy: ,0.1
+10014,Responsibilities,Flexible Sigmoidoscopy: ,0.1
+10014,Retrieving Results,,
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,2
+10014,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,2
+10016,Basic Information,What is your gender?,male
+10016,Basic Information,What is your preferred language?,en
+10016,Basic Information,Are you married or living with a partner?,no
+10016,Basic Information,Are you currently working?,no
+10016,Basic Information,In what country were you born?,united_states
+10016,Basic Information,Which one of the following would you say is your race?,american_indian_or_alaska_native
+10016,Basic Information,Do you have a physician who you consider to be your regular doctor?,no
+10016,Basic Information,Before today had you ever heard of colorectal cancer?,yes
+10016,Basic Information,Has a doctor ever recommended that you get tested for colorectal cancer?,no
+10016,Basic Information,Have you ever been told by a doctor that you have ulcerative colitis or Crohn’s disease?,no
+10016,Basic Information,Have you ever been told by a doctor that you have adenomatous polyps (pre- cancerous, pre-malignant polyps)?,no
+10016,Basic Information,What is your ethnicity?,hispanic_or_latino
+10016,Acculturation,In general, what language(s) do you speak?,1
+10016,Acculturation,Your early life (childhood to teenage years) was spent:,4
+10016,Acculturation,Currently your circle of friends is:,4
+10016,Acculturation,In relation to having a Mexican background, I feel:,2
+10016,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,no
+10016,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,no
+10016,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10016,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,no
+10016,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,no
+10016,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10016,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,no
+10016,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,no
+10016,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10016,Pre-Screening,Are you between 50 and 75?,yes
+10016,Pre-Screening,Age?,
+10016,Pre-Screening,Do you have a scheduled clinic visit today in FM?,no
+10016,Global Test Rating,Fecal Occult Blood Test,
+10016,Global Test Rating,Colonoscopy,
+10016,Global Test Rating,Flexible Sigmoidoscopy,
+10016,Amount of Colon Examined,FIT: ,0.1
+10016,Amount of Colon Examined,Colonoscopy: ,0.2
+10016,Amount of Colon Examined,Flexible Sigmoidoscopy: ,0.3
+10016,Accuracy,FIT: ,0.1
+10016,Accuracy,Colonoscopy: ,0.2
+10016,Accuracy,Flexible Sigmoidoscopy: ,0.3
+10016,Cost,FIT: ,0.1
+10016,Cost,Colonoscopy: ,1.0
+10016,Cost,Flexible Sigmoidoscopy: ,0.1
+10016,Complications,FIT: ,0.1
+10016,Complications,Colonoscopy: ,0.1
+10016,Complications,Flexible Sigmoidoscopy: ,0.1
+10016,Frequency,FIT: ,0.1
+10016,Frequency,Colonoscopy: ,0.1
+10016,Frequency,Flexible Sigmoidoscopy: ,0.1
+10016,Discomfort,FIT: ,0.1
+10016,Discomfort,Colonoscopy: ,0.1
+10016,Discomfort,Flexible Sigmoidoscopy: ,0.1
+10016,Further Testing,FIT: ,0.1
+10016,Further Testing,Colonoscopy: ,0.1
+10016,Further Testing,Flexible Sigmoidoscopy: ,0.1
+10016,Location,FIT: ,0.1
+10016,Location,Colonoscopy: ,0.1
+10016,Location,Flexible Sigmoidoscopy: ,0.1
+10016,Test Preparation,FIT: ,0.1
+10016,Test Preparation,Colonoscopy: ,0.1
+10016,Test Preparation,Flexible Sigmoidoscopy: ,0.1
+10016,Sedation,FIT: ,0.1
+10016,Sedation,Colonoscopy: ,0.1
+10016,Sedation,Flexible Sigmoidoscopy: ,0.1
+10016,Time,FIT: ,0.1
+10016,Time,Colonoscopy: ,0.1
+10016,Time,Flexible Sigmoidoscopy: ,0.1
+10016,Scientific Evidence,FIT: ,0.1
+10016,Scientific Evidence,Colonoscopy: ,0.1
+10016,Scientific Evidence,Flexible Sigmoidoscopy: ,0.1
+10016,Responsibilities,FIT: ,0.1
+10016,Responsibilities,Colonoscopy: ,0.1
+10016,Responsibilities,Flexible Sigmoidoscopy: ,0.1
+10016,Retrieving Results,,
+10016,Benefits,Some types of cancer can actually be cured.,2
+10016,Benefits,If colon cancer is detected early, chances of cure is very high.,2
+10016,Benefits,There are medical tests now that can detect colon cancer in its very early stages.,2
+10016,Benefits,If I had a test to find colon cancer early, it could save my life.,2
+10016,Benefits,Having a test to find colon cancer early makes sense to me.,2
+10016,Benefits,The benefits of having a test to find colon cancer early outweigh any difficulties I may have going through it.,2
+10016,Benefits,I believe that a test to find colon cancer early can help to protect my health.,2
+10016,Benefits,Receiving clear findings would give me peace of mind,2
+10016,Benefits,My family would be happy if I got screened,2
+10016,Benefits,Most of my friends are getting screened,2
+10016,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,2
+10016,Intentions,My plans for getting a colon cancer test are,3
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,2
+10016,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,0
+10016,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,0
+10016,,Sure of myself: ,0
+10016,,Understand information: ,0
+10016,,Risk-benefit ratio: ,0
+10016,,Encouragement: ,0
+10016,,How confident are you filling out forms by yourself? (Confident with Forms),1
+10016,,How often do you have someone (like a family member, friend, hospital/ clinic worker or caregiver) help you read hospital materials? (Help Read),1
+10016,,How often do you have problems learning about your medical condition because of difficulty understanding written information? (Problems Reading),1
+10016,,How good are you at working with fractions?,2
+10016,,How good are you at working with percentages?,2
+10016,,How good are you at calculating a 15% tip?,2
+10016,,How good are you at figuring out how much a shirt will cost if it is 25% off?,2
+10016,,When reading the newspaper, how helpful do you find tables and graphs that are parts of a
+story?,3
+10016,,When you hear a weather forecast, do you prefer predictions using percentages (e.g., “there will be a 20% chance of rain today”) or predictions using only words (e.g., “there is a small chance of rain today”)?,3
+10016,,How often do you find numerical information to be useful?,3
+10016,,When people tell you the chance of something happening, do you prefer that they use words ("it rarely happens") or numbers ("there's a 1% chance")?,3
+10017,Basic Information,What is your gender?,female
+10017,Basic Information,What is your preferred language?,es
+10017,Fatalism,I think if someone is meant to have colon cancer, they will have colon cancer.,0
+10017,Knowledge,Most people who get colon cancer have no family history of the disease.,0
+10017,Knowledge,In order to be most effective for screening the Stool card test should be done yearly.,0
+10017,Knowledge,Men and women both can get colon cancer.,0
+10017,Barriers,Cost,1
+10017,Barriers,Discomfort,2
+10017,Barriers,Inconvenience,2
+10017,Barriers,Fear of finding something wrong,2
+10017,Perceived Susceptibility,What do you think your chance of getting colon cancer is?,1
+10017,Perceived Susceptibility,Compared to others your age and sex, what do you think your chance is that you will develop colon cancer?,1
+10017,Perceived Susceptibility,How worried are you that you may develop colon cancer?,1
+10017,Perceived Susceptibility,How much does it concern you that you may develop colon cancer?,2
+10017,Intentions,My plans for getting a colon cancer test are,3
+10017,Intentions,I plan to have a test for colon cancer in the next  6 months,1
+10017,Intentions,How likely is it that you will be tested for colon cancer in the next 6 months?,3
+10017,Self-Efficacy,Complete colon cancer screening, even if you don’t think you need it,2
+10017,Self-Efficacy,Find time to complete colon cancer screening,2
+10017,Self-Efficacy,Talk to your doctor about  colon cancer screening,2
+10017,Process of Change,I rely more on home remedies than on doctors.,2
+10017,Process of Change,If I feel healthy, I do not go to the doctor for a routine check-up.,2
+10017,Decision Making,,2
+10017,Acculturation,In general, what language(s) do you speak?,1
+10017,Acculturation,In general, what language(s) do you read?,1
+10017,Colorectal Cancer Screening History,Before this test was described, had you ever heard of a fecal occult or stool blood test?,yes
+10017,Colorectal Cancer Screening History,Have you ever done a stool blood test using a “home” test kit?,yes
+10017,Colorectal Cancer Screening History,When did you do your most recent home stool blood test?,a_year_ago_or_more
+10017,Colorectal Cancer Screening History,Before this test was described, had you ever heard of colonoscopy?,yes
+10017,Colorectal Cancer Screening History,Have you ever had a colonoscopy?,yes
+10017,Colorectal Cancer Screening History,Was your most recent colonoscopy:,10_years_ago_or_more
+10017,Colorectal Cancer Screening History,Before this test was described, had you ever heard of sigmoidoscopy?,yes
+10017,Colorectal Cancer Screening History,Have you ever had a sigmoidoscopy?,yes
+10017,Colorectal Cancer Screening History,Was your most recent sigmoidoscopy,5_years_ago_or_more
+10017,Pre-Screening,Are you between 50 and 75?,yes
+10017,Pre-Screening,Age?,
+10017,Pre-Screening,Do you have a scheduled clinic visit today in FM?,yes
+10017,Global Test Rating,Fecal Occult Blood Test,
+10017,Global Test Rating,Colonoscopy,
+10017,Global Test Rating,Flexible Sigmoidoscopy,
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you know which options are available to you?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you know the benefits of each option?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you know the risks and side effects of each option?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which benefits matter most to you?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about which risks and side effects matter most to you?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough support from others to make a choice?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Are you choosing without pressure from others?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you have enough advice to make a choice?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Are you clear about the best choice for you?,4
+10017,As you consider colorectal cancer screening, please answer the following questions:,Do you feel sure about what to choose?,4

@@ -25,9 +25,12 @@
   $MyRoute->addRoute('POST', '/update/:model/', array($MyAPI, 'update'));
   $MyRoute->addRoute('POST', '/update/:model/:params', array($MyAPI, 'update'));
 
+  # todo return a boolean
   $MyRoute->doRouting();
 
   if(!$MyRoute->__get('routed')) {
-    print($MyRoute->noRoute());
+    #print($MyRoute->noRoute());
+    # sends the response: No Route for...
+    $MyRoute->noRoute();
   }
 ?>

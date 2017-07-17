@@ -1,0 +1,24 @@
+
+create user 'ccdaa'@'localhost' identified by '123';
+
+
+== verify our config is good
+
+# apachectl configtest
+
+
+== Enable required modules
+a2enmod rewrite ssl
+a2ensite default-ssl
+
+
+## Apply changes
+service apache2 reload
+
+apt-get install php5-mysql
+service apache2 restart
+
+
+
+
+

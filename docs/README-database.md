@@ -17,4 +17,6 @@ The database is initialized with no authorization data in the authorization tabl
 
     echo "INSERT INTO authorization VALUES (1,1,NULL,NULL,NULL,'ccdaa_login_auth','Key used by new sessions for CCDAA',0,'','7b02422a35016bf1499be3442b0311f8',now(),'0000-00-00 00:00:00','0000-00-00 00:00:00','0000-00-00 00:00:00','0000-00-00 00:00:00');" | mysql
 
-    echo "CALL setupNewInstance('5000', '10000');" | mysql
+    grant insert, select, update, delete, show view , execute, drop on ccdaa.* to 'ccdaa'@'localhost';
+
+    echo "CALL setupNewInstance('5000', '10000');" | mysql -uccdaa -p123 ccdaa

@@ -65,6 +65,7 @@
     # allowed for the requested url
     #
     public function noRoute($print=true) {
+
       $this->MyBase->respond(true, 'No Route for [' . $this->requested_url . ']', array());
       $this->MyBase->sendResponse(false, false, $print);
       return true;
@@ -79,19 +80,29 @@
       $reqMet = $_SERVER['REQUEST_METHOD'];
       $run = -1;
 
-      foreach($this->routes as  $route) {
+      // $this->MyBase->respond(true, 'routes content', $this->routes);
+      // $this->MyBase->sendResponse(false, false, true);
+ 
+ 	// print_r($this->routes);
+ 	// print_r($this->requested_url);
+	# exit(1);
+
+      foreach($this->routes as $route) {
         $route['url'] = rtrim($route['url'], '/');
         // convert urls like '/users/:uid/posts/:pid' to regular expression
         $pattern = preg_replace('/\\\:[a-zA-Z0-9\_\-\&\=\%]+/', '([a-zA-Z0-9\-\_\&\=\%]+)', preg_quote($route['url'], '@'));
         $pattern = "@^$pattern/?$@D";
         $matches = array();
 
-        if($reqMet == $route['method'] && preg_match($pattern, $this->requested_url, $matches)) {
+        if ($reqMet == $route['method']
+		&& preg_match($pattern, $this->requested_url, $matches)) {
           // remove the first match
           // print_r($matches);
           array_shift($matches);
           // call the callback with the matched positions as params
           $run++;
+
+	  # set the flag indicating that a route was found
           $this->__set('routed', true);
           return call_user_func_array($route['callback'], $matches);
         }
