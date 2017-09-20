@@ -48,7 +48,6 @@
   );
 
   error_reporting(E_ALL);
-
   if($config['debug']) {
     ini_set('log_errors', true);
     ini_set('display_errors', true);
