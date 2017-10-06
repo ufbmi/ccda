@@ -54,8 +54,7 @@
         <!-- Bootstrap Project Panel, shows the basic project information -->
         <div class="panel panel-primary" ng-if="!survey_started">
             <div class="panel-heading">
-              <h3 class="panel-title">{{config.project.title}}<projectsmp3audio ng-if="config.project.options.audio_src" class="pull-right"></projectsmp3audio>
-</h3>
+              <h3 class="panel-title">{{config.project.title}}<projectsmp3audio ng-if="config.project.options.audio_src" class="pull-right"></projectsmp3audio></h3>
             </div>
             <div class="panel-body" ng-show="!survey_started">
                 <div ng-repeat="instruction in config.project.instructions">
@@ -71,7 +70,7 @@
           <div class="row" ng-if="forms_count">
             <div class="col-md-6">
               <div>
-                <strong>Overall Progress:</strong> ( You are on {{at_form}} of {{forms_count}} forms )
+                <strong>Overall Progress:</strong> ( You are on {{at_form}} of {{forms_count - 7}} forms )
               </div>
               <progressbar animate="false" value="progress_forms" type="info"></progressbar>
             </div>

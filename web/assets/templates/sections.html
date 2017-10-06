@@ -26,7 +26,7 @@
             <div ng-if="api_response && api_response_data">
               <strong>Results: </strong><pre>{{api_response_data}}</pre>
             </div>
-            <div ng-init="question_count=1"></div>
+            <div ng-init="question_count=0"></div>
             <div ng-repeat="question in section.questions">
                 <div ng-if="question.parameters.type=='table'">
                   <datatable></datatable>
@@ -122,9 +122,9 @@
             </div>
             <div class="btn-group" role="group" aria-label="...">
               <!-- Previous Button -->
-              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && config.skip_required" ng-disabled="section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
-              <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && !config.skip_required" ng-disabled="section_form.$invalid || section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
-              <!-- Next or Done Button -->
+                <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && config.skip_required" ng-disabled="section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
+                <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.previous_sections_id, true)" ng-if="section.begin && !config.skip_required" ng-disabled="section_form.$invalid || section.parameters.type=='read_from_api' && !api_response_data">{{section.begin}}</button>
+                <!-- Next or Done Button -->
               <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.next_sections_id, false)" ng-if="section.finish && config.skip_required" ng-disabled="section.parameters.type=='read_from_api' && !api_response_data">{{section.finish}}</button>
               <button type="button" class="btn btn-primary btn-lg" ng-click="next(section.id, section.next_sections_id, false)" ng-if="section.finish && !config.skip_required" ng-disabled="section_form.$invalid || section.parameters.type=='read_from_api' && !api_response_data">{{section.finish}}</button>
             </div>

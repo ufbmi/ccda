@@ -6,8 +6,8 @@ app.controller('MainController', ['$scope', '$rootScope', '$q', '$cookies', '$mo
       var nextPath = next;
       var currentPath = current;
 
-      console.log(nextPath);
-      console.log(currentPath);
+      console.log(nextPath + "aqui es next path");
+      console.log(currentPath + "aqui es current path");
     });
 
     $scope.config.media_playing = { 'id': false, 'time': 0, 'volume': 0 };
@@ -170,6 +170,7 @@ app.controller('MainController', ['$scope', '$rootScope', '$q', '$cookies', '$mo
           resource_link = $rootScope.config.app_name + '_' + $rootScope.config.project.id + '_' + $rootScope.config.site.selected_language.id + '.json';
         } else {
           resource_link = 'get/forms/app_name=' + $rootScope.config.app_name + '&projects_id=' + $rootScope.config.project.id + '&languages_id=' + $rootScope.config.site.selected_language.id + '&cache=1';
+          console.log("link " + resource_link);
         }
 
         q1 = $scope.q1 = $q.defer(),
