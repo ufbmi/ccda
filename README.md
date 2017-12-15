@@ -1,3 +1,10 @@
+## Overview and Changes ##
+
+The main ccdaa app had a series of questions at the beginning and the end of the app. I did not remove the forms, instead I changed the order of how the forms in the table using the admin user in MySQL.
+The pictures in the pic_with_changes folder show the original order of the forms.
+
+![alt text](https://github.com/ccda/master/pic_with_changes/tables_order.jpg)
+
 # Colorectal Cancer Decision Aids
 
 [![Build Status](https://travis-ci.org/ctsit/ccdaa.svg?branch=master)](https://travis-ci.org/ctsit/ccdaa?branch=master)
