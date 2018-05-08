@@ -35,19 +35,33 @@ A demonstration and development is included this project using a VM built with V
 
 * Install Virtual Box
 * Install Vagrant 1.6 or higher
-* Edit your local `/etc/hosts` file to include these lines
+
+    $ brew cask upgrade vagrant
+    $ vagrant --version
+    >> Vagrant 2.1.1
+    
+    $ vagrant plugin install vagrant-triggers
+    
+    $ vagrant plugin list
+    >> vagrant-triggers (0.5.3)
+    >> vagrant-vbguest (0.15.1)
+    
+* Edit your local `/etc/hosts` file 
+
+    $ sudo vim /etc/hosts
+    
+ to include the line below:
 
     192.168.56.101  vagrant1
-    
     
 
 ### Starting the Demonstration and Development Environments
 
-The start the VM with the development and demo environments start the Vagrant VM.
+Start the VM with the development and demo environments:
 
-    cd vagrant
-    cp puphpet/config-custom-local.yaml puphpet/config-custom.yaml
-    vagrant up
+    $ cd vagrant
+    $ cp puphpet/config-custom-local.yaml puphpet/config-custom.yaml
+    $ vagrant up
 
 The VM takes about 5 minutes to start.
 
