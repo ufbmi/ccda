@@ -35,9 +35,11 @@ A demonstration and development is included this project using a VM built with V
 
 * Install Virtual Box
 * Install Vagrant 1.6 or higher
-* Edit your local hosts file to include these lines
+* Edit your local `/etc/hosts` file to include these lines
 
     192.168.56.101  vagrant1
+    
+    
 
 ### Starting the Demonstration and Development Environments
 
