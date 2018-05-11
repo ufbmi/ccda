@@ -1,0 +1,229 @@
+diff --git a/vagrant/Vagrantfile b/vagrant/Vagrantfile
+index e42c709..8c42871 100755
+--- a/vagrant/Vagrantfile
++++ b/vagrant/Vagrantfile
+@@ -1,7 +1,8 @@
+ dir = File.dirname(File.expand_path(__FILE__))
+ 
+ require 'yaml'
+-require "#{dir}/puphpet/ruby/deep_merge.rb"
++# require "#{dir}/puphpet/ruby/deep_merge.rb"
++require "#{dir}/deep_merge.rb"
+ 
+ configValues = YAML.load_file("#{dir}/puphpet/config.yaml")
+ 
+diff --git a/vagrant/puphpet/config-custom-local.yaml b/vagrant/puphpet/config-custom-local.yaml
+index 4ab802f..1f3c46a 100755
+--- a/vagrant/puphpet/config-custom-local.yaml
++++ b/vagrant/puphpet/config-custom-local.yaml
+@@ -3,7 +3,7 @@ vagrantfile:
+     vm:
+         box: puphpet/debian75-x64
+         box_url: puphpet/debian75-x64
+-        hostname: vagrant1
++        hostname: vagrant1.local
+         memory: '1024'
+         cpus: '1'
+         chosen_provider: virtualbox
+diff --git a/vagrant/puphpet/config-custom.yaml b/vagrant/puphpet/config-custom.yaml
+index 4ab802f..be953c5 100755
+--- a/vagrant/puphpet/config-custom.yaml
++++ b/vagrant/puphpet/config-custom.yaml
+@@ -3,9 +3,9 @@ vagrantfile:
+     vm:
+         box: puphpet/debian75-x64
+         box_url: puphpet/debian75-x64
+-        hostname: vagrant1
++        hostname: vagrant1.local
+         memory: '1024'
+-        cpus: '1'
++        cpus: '2'
+         chosen_provider: virtualbox
+         network:
+             private_network: 192.168.56.101
+@@ -25,7 +25,7 @@ vagrantfile:
+                 modifyvm:
+                     natdnshostresolver1: on
+             vmware:
+-                numvcpus: 1
++                numvcpus: 2
+             parallels:
+                 cpus: 1
+         provision:
+diff --git a/vagrant/puphpet/puppet/modules/rvm/spec/acceptance/rvm_system_spec.rb b/vagrant/puphpet/puppet/modules/rvm/spec/acceptance/rvm_system_spec.rb
+index fc876d7..267717b 100755
+--- a/vagrant/puphpet/puppet/modules/rvm/spec/acceptance/rvm_system_spec.rb
++++ b/vagrant/puphpet/puppet/modules/rvm/spec/acceptance/rvm_system_spec.rb
+@@ -11,15 +11,15 @@ describe "rvm" do
+   let(:rvm_path) { "/usr/local/rvm/" }
+ 
+   # ruby 1.9.3 config
+-  let(:ruby19_version) { "ruby-1.9.3-p547" } # chosen for RVM binary support across nodesets
+-  let(:ruby19_environment) { "#{rvm_path}environments/#{ruby19_version}" }
+-  let(:ruby19_bin) { "#{rvm_path}rubies/#{ruby19_version}/bin/" }
+-  let(:ruby19_gems) { "#{rvm_path}gems/#{ruby19_version}/gems/" }
+-  let(:ruby19_gemset) { "myproject" }
+-  let(:ruby19_and_gemset) { "#{ruby19_version}@#{ruby19_gemset}" }
++  # let(:ruby19_version) { "ruby-1.9.3-p547" } # chosen for RVM binary support across nodesets
++  # let(:ruby19_environment) { "#{rvm_path}environments/#{ruby19_version}" }
++  # let(:ruby19_bin) { "#{rvm_path}rubies/#{ruby19_version}/bin/" }
++  # let(:ruby19_gems) { "#{rvm_path}gems/#{ruby19_version}/gems/" }
++  # let(:ruby19_gemset) { "myproject" }
++  # let(:ruby19_and_gemset) { "#{ruby19_version}@#{ruby19_gemset}" }
+ 
+   # ruby 2.0 config
+-  let(:ruby20_version) { "ruby-2.0.0-p481" } # chosen for RVM binary support across nodesets
++  let(:ruby20_version) { "2.1.6" } # chosen for RVM binary support across nodesets
+   let(:ruby20_environment) { "#{rvm_path}environments/#{ruby20_version}" }
+   let(:ruby20_bin) { "#{rvm_path}rubies/#{ruby20_version}/bin/" }
+   let(:ruby20_gems) { "#{rvm_path}gems/#{ruby20_version}/gems/" }
+diff --git a/vagrant/puphpet/puppet/modules/rvm/spec/defines/rvm_wrapper_spec.rb b/vagrant/puphpet/puppet/modules/rvm/spec/defines/rvm_wrapper_spec.rb
+index a36335f..1bd5ee4 100755
+--- a/vagrant/puphpet/puppet/modules/rvm/spec/defines/rvm_wrapper_spec.rb
++++ b/vagrant/puphpet/puppet/modules/rvm/spec/defines/rvm_wrapper_spec.rb
+@@ -4,7 +4,7 @@ describe 'rvm_wrapper' do
+ 
+   let(:title) { 'god' }
+   let(:params) {{
+-    :target_ruby => 'ruby-1.9.3-p448',
++      :target_ruby => '2.1.6',
+     :prefix      => 'bootup',
+     :ensure      => 'present'
+   }}
+diff --git a/vagrant/puphpet/puppet/site.pp b/vagrant/puphpet/puppet/site.pp
+index 9e56144..c93ab49 100755
+--- a/vagrant/puphpet/puppet/site.pp
++++ b/vagrant/puphpet/puppet/site.pp
+@@ -36,7 +36,7 @@ Exec { path => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/' ] }
+ 
+ include ::puphpet::params
+ 
+-import 'nodes/*'
++include 'nodes/*'
+ 
+ if array_true($apache, 'install') {
+   class { '::puphpet_apache':
+diff --git a/vagrant/puphpet/shell/install-puppet.sh b/vagrant/puphpet/shell/install-puppet.sh
+index 47c737f..87dc449 100755
+--- a/vagrant/puphpet/shell/install-puppet.sh
++++ b/vagrant/puphpet/shell/install-puppet.sh
+@@ -14,9 +14,15 @@ if [[ ! -f /.puphpet-stuff/install-deep_merge-03122015 ]]; then
+     touch /.puphpet-stuff/install-deep_merge-03122015
+ fi
+ 
+-if [[ ! -f /.puphpet-stuff/install-activesupport-03132015 ]]; then
+-    gem install activesupport --no-ri --no-rdoc
+-    touch /.puphpet-stuff/install-activesupport-03132015
++# if [[ ! -f /.puphpet-stuff/install-activesupport-03132015 ]]; then
++#     gem install activesupport --no-ri --no-rdoc
++#     touch /.puphpet-stuff/install-activesupport-03132015
++# fi
++
++# gem install activesupport -v 4.2.10
++if [[ ! -f /.puphpet-stuff/install-activesupport-4.2.10 ]]; then
++    gem install activesupport -v 4.2.10 --no-ri --no-rdoc 
++    touch /.puphpet-stuff/install-activesupport-4.2.10
+ fi
+ 
+ if [[ ! -f /.puphpet-stuff/install-vine-03202015 ]]; then
+@@ -36,7 +42,8 @@ if [[ ! -f /.puphpet-stuff/install-augeas-04232015 ]] && [ "${OS}" == 'centos' ]
+     echo 'Finished upgrading augeas'
+ fi
+ 
+-if [[ -f /.puphpet-stuff/install-puppet-3.4.3 ]]; then
++# if [[ -f /.puphpet-stuff/install-puppet-3.4.3 ]]; then
++if [[ -f /.puphpet-stuff/install-puppet-3.7.3 ]]; then
+     exit 0
+ fi
+ 
+@@ -52,16 +59,24 @@ echo 'Installing Puppet requirements'
+ gem install haml hiera facter json ruby-augeas deep_merge --no-ri --no-rdoc
+ echo 'Finished installing Puppet requirements'
+ 
+-echo 'Installing Puppet 3.4.3'
+-gem install puppet --version 3.4.3 --no-ri --no-rdoc
+-echo 'Finished installing Puppet 3.4.3'
++# echo 'Installing Puppet 3.4.3'
++# gem install puppet --version 3.4.3 --no-ri --no-rdoc
++# echo 'Finished installing Puppet 3.4.3'
++
++echo 'Installing Puppet 3.7.3'
++# gem install puppet --version 3.7.3 --no-ri --no-rdoc
++gem install puppet --version 3.8.7 --no-ri --no-rdoc
++echo 'Finished installing Puppet 3.7.3'
++
+ 
+ cat >/usr/bin/puppet << 'EOL'
+ #!/bin/bash
+ 
+-rvm ruby-1.9.3-p551 do puppet "$@"
++# rvm ruby-1.9.3-p551 do puppet "$@"
++rvm ruby-2.1.6 do puppet "$@"
+ EOL
+ 
+ chmod +x /usr/bin/puppet
+ 
+-touch /.puphpet-stuff/install-puppet-3.4.3
++# touch /.puphpet-stuff/install-puppet-3.4.3
++touch /.puphpet-stuff/install-puppet-3.7.3
+diff --git a/vagrant/puphpet/shell/install-ruby.sh b/vagrant/puphpet/shell/install-ruby.sh
+index 32601e2..5ba2950 100755
+--- a/vagrant/puphpet/shell/install-ruby.sh
++++ b/vagrant/puphpet/shell/install-ruby.sh
+@@ -8,13 +8,15 @@ OS=$(/bin/bash "${VAGRANT_CORE_FOLDER}/shell/os-detect.sh" ID)
+ RELEASE=$(/bin/bash "${VAGRANT_CORE_FOLDER}/shell/os-detect.sh" RELEASE)
+ CODENAME=$(/bin/bash "${VAGRANT_CORE_FOLDER}/shell/os-detect.sh" CODENAME)
+ 
+-if [[ -f /.puphpet-stuff/install-ruby-1.9.3-p551 ]]; then
++# if [[ -f /.puphpet-stuff/install-ruby-1.9.3-p551 ]]; then
++if [[ -f /.puphpet-stuff/install-ruby-2.1.6 ]]; then
+     exit 0
+ fi
+ 
+ rm -rf /usr/bin/ruby /usr/bin/gem /usr/bin/rvm /usr/local/rvm
+ 
+-echo 'Installing RVM and Ruby 1.9.3'
++# echo 'Installing RVM and Ruby 1.9.3'
++echo 'Installing RVM and Ruby 2.1.6'
+ 
+ if [ "${OS}" == 'debian' ] || [ "${OS}" == 'ubuntu' ]; then
+     gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D39DC0E3
+@@ -22,7 +24,8 @@ elif [[ "${OS}" == 'centos' ]]; then
+     gpg2 --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys D39DC0E3
+ fi
+ 
+-curl -sSL https://get.rvm.io | bash -s stable --quiet-curl --ruby=ruby-1.9.3-p551
++# curl -sSL https://get.rvm.io | bash -s stable --quiet-curl --ruby=ruby-1.9.3-p551
++curl -sSL https://get.rvm.io | bash -s stable --quiet-curl --ruby=ruby-2.1.6
+ 
+ source /usr/local/rvm/scripts/rvm
+ 
+@@ -38,6 +41,8 @@ fi
+ gem update --system >/dev/null
+ echo 'y' | rvm rvmrc warning ignore all.rvmrcs
+ 
+-echo 'Finished installing RVM and Ruby 1.9.3'
++# echo 'Finished installing RVM and Ruby 1.9.3'
++echo 'Finished installing RVM and Ruby 2.1.6'
+ 
+-touch /.puphpet-stuff/install-ruby-1.9.3-p551
++# touch /.puphpet-stuff/install-ruby-1.9.3-p551
++touch /.puphpet-stuff/install-ruby-2.1.6
+diff --git a/web/app/config.js b/web/app/config.js
+index 52d9f15..90780c9 100755
+--- a/web/app/config.js
++++ b/web/app/config.js
+@@ -8,8 +8,8 @@ var root_config = {
+     },
+     "author": "CTS-IT <ctsit@ctsi.ufl.edu>, Roy Keyes <keyes@ufl.edu>",
+     "copyright": "CTS-IT @ University of Florida 2015",
+-    "api_url": "https://vagrant1/api/v1/",
+-    //"api_url": "https://localhost:8181/api/v1/",
++    // "api_url": "https://vagrant1.local/api/v1/",
++     "api_url": "https://localhost:8181/api/v1/",
+     "app_name": "ccdaa",
+     "api_key": "7b02422a35016bf1499be3442b0311f8",
+     "use_fixed_file": false,
+diff --git a/web/index.html b/web/index.html
+old mode 100644
+new mode 100755
