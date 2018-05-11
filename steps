@@ -1,5 +1,21 @@
 
+create database ccdaa;
+
 create user 'ccdaa'@'localhost' identified by '123';
+GRANT ALL PRIVILEGES ON `ccdaa`.`*` TO `ccdaa`@`localhost`;
+
+show grants for 'ccdaa'@'localhost';
++--------------------------------------------------------------------------------------------------------------+
+| Grants for ccdaa@localhost                                                                                   |
++--------------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO 'ccdaa'@'localhost' IDENTIFIED BY PASSWORD '*23AE809DDACAF96AF0FD78ED04B6A265E05AA257' |
+| GRANT ALL PRIVILEGES ON `ccdaa`.`*` TO 'ccdaa'@'localhost'                                                   |
++--------------------------------------------------------------------------------------------------------------+
+
+
+== Run on the vagrant machine
+
+cat /sql/ccdaa_all.sql | mysql
 
 
 == verify our config is good

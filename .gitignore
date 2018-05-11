@@ -93,3 +93,6 @@ fabric.properties
 # End of https://www.gitignore.io/api/macos,webstorm
 
 vagrant/.vagrant
+api/v1/logs/*
+api/v1/responses/*
+

@@ -6,8 +6,8 @@ app.controller('MainController', ['$scope', '$rootScope', '$q', '$cookies', '$mo
       var nextPath = next;
       var currentPath = current;
 
-      console.log(nextPath + "aqui es next path");
-      console.log(currentPath + "aqui es current path");
+      console.log("Next path is: " + nextPath);
+      console.log("Current path is: " + currentPath);
     });
 
     $scope.config.media_playing = { 'id': false, 'time': 0, 'volume': 0 };
